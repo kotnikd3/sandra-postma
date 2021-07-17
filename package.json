@@ -1,0 +1,21 @@
+{
+  "name": "sandra-postma",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "bulma": "^0.9.3",
+    "core-js": "^3.8.3",
+    "vue": "^3.0.4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0-beta.2",
+    "@vue/cli-service": "~5.0.0-beta.2",
+    "@vue/compiler-sfc": "^3.0.4",
+    "sass": "^1.35.2",
+    "sass-loader": "^12.1.0"
+  }
+}
