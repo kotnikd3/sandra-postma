@@ -1,5 +1,9 @@
 # sandra-postma
 
+## About the project
+Web page repository of Sandra Postma build with Vue.js 3 and Bulma.  
+Free to use.
+
 ## Project setup
 ```
 npm install
@@ -14,6 +18,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
