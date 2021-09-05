@@ -8,7 +8,7 @@
 					<div class="column">
 						<section class="section">
 							<h1 class="title">Sandra Postma</h1>
-							<h2 class="subtitle">Ovej mij</h2>
+							<h2 class="subtitle">Over mij</h2>
 							<div class="content">
 								<p>Mijn naam is Sandra, lichaamsgericht therapeut in opleiding.</p>
 								<p>Ik geloof dat wij allemaal, buitengewoon mens zijn. Iedereen is op zijn of haar manier bijzonder en geeft een unieke bijdrage aan het leven. Daarnaast, zijn wij mensen heel gewoon en dealen we met varianten van dezelfde issues. Mens zijn gaat er voor mij over dat alles er mag zijn: van verdriet, boosheid, angst tot speelsheid, blijdschap en vreugde én om daarbij de pijn en het ongemak te ontvangen over dat het leven niet altijd is en gaat zo als we willen. De uitdaging is om alle delen van onszelf een plek te geven en om ze samen te laten werken voor een leven dat ons vervult.</p>
