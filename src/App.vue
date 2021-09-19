@@ -16,16 +16,24 @@
 				<div class="columns is-vcentered">
 					<!-- Column -->
 					<div class="column">
-						<h1 class="title">BUITENGEWOON-MENS</h1>
+						<h1 class="title">Buitengewoon-Mens</h1>
 						<h2 class="subtitle">Lichaamsgerichte psychotherapie</h2>
 						<div class="content">
-							<p>Je bent bijzonder en uniek, en daarnaast ben je gewoon mens, net als anderen en deal je met varianten van dezelfde issues. Mens zijn gaat er voor mij over dat alles er mag zijn: van verdriet, boosheid, angst tot speelsheid, blijdschap en vreugde én om daarbij de pijn en het ongemak te ontvangen over dat het leven niet altijd is en gaat zo als we willen. De uitdaging is om alle delen van onszelf een plek te geven en om ze samen te laten werken voor een leven dat ons vervult. Daarvoor moeten we soms uit de comfortzone en hebben we soms hulp nodig</p>
-							<p>Wil jij in beweging komen en op reis in jezelf? Meer in contact komen met je emoties? Ontdekken wie en waarvoor je hier bent? De volheid van het leven ervaren? Blijer en vrijer zijn met jezelf? Meer naar je lichaam luisteren? Dan kan lichaamsgerichte psychotherapie jou ondersteunen.</p>
+							<p>Ha! Mijn naam is Sandra en ik ben derdejaarsstudenteIntegrated Psychotherapy bij Bodymind Opleidingen. Ik geef onder supervisie van het opleidingsinstituut oefensessies lichaamsgerichte psychotherapie.</p>
+							<p>Wil jij in beweging komen en ben je bereid tot zelfonderzoek?Wil je ontdekken wat jouw lichaam en je emoties je vertellen? Lichaamsgerichte psychotherapie biedt jou hiertoe een ingang en je bentwelkom bij buitengewoon-mens. De potentiële winst:</p>
+							<ul>
+								<li>je voelt je blijer met jezelf</li>
+								<li>je ervaart het leven voller</li>
+								<li>je bent meer ontspannen</li>
+								<li>je voelt je creatiever, speelser en hebt meer plezier</li>
+								<li>je krijgt meer zicht en doel op wie jij bent en wat jij belangrijk vindt in het leven</li>
+								<li>je relaties verbeteren en verdiepen.</li>
+							</ul>
 						</div>
 				 	</div>
 					<!-- Column -->
 				 	<div class="column has-text-centered">
-						<img src="./assets/sandra_4.jpg" style="width: 60%;" alt="Sandra Postma">
+						<img src="./assets/bridge.jpg" alt="Sandra Postma">
 					</div>
 				</div>
 			</div>
@@ -33,18 +41,17 @@
 		<!-- Over mij -->
 		<section class="section" id="over-mij">
 			<div class="container">
-				<div class="columns is-vcentered">
+				<div class="columns is-vcentered reverse-columns">
 					<!-- Column -->
 				 	<div class="column has-text-centered">
-						<img src="./assets/sandra_2.jpg" alt="Sandra Postma">
+						<img src="./assets/sandra.jpg" alt="Sandra Postma">
 					</div>
 					<!-- Column -->
 					<div class="column">
 						<h4 class="title is-4">Over Mij</h4>
 						<div class="content">
-							<p>Mijn naam is Sandra en ik ben derdejaarsstudent Integrated Psychotherapy bij Bodymind Opleidingen. Ik geef onder supervisie van het opleidingsinstituut sessies lichaamsgerichte psychotherapie.</p>
-							<p>Ik ben afgestudeerd als antropoloog en de mens in hoe hij of zij denkt, voelt en doet als individu of Groep heeft mij altijd gefascineerd. Ik heb veel reizen gemaakt, maar de reis in mijzelf vervult mij het meest en is eindeloos. Vier jaren geleden kwam ik voor het eerst in contact met lichaamswerk en volgde hierin allerlei trainingen bij de Omega Levensschool (Venwoude). Ik was erg onder de indruk van het werken met het lichaam en ik wist meteen dat ik lichaamsgericht therapeut wilde worden</p>
-							<p>Om volop in het leven aanwezig te kunnen zijn heb ik ontdekt dat het belangrijkste voor mij is om thuis te zijn bij mezelf, verbonden te zijn met mijn lichaam, mijn emoties te omarmen en een zinvol leven te leiden. Dit geeft mij de basis om de ander te ontmoeten en in de wereld te zijn.</p>
+							<p>Ik ben in 2015 afgestudeerd als antropoloog en de mens in hoe hij of zij denkt, voelt en doet als individu of groep heeft mij altijd gefascineerd. Ik geloof dat ieder mens bijzonder en uniek is en dat we daarnaast allemaal dealen met varianten van dezelfde issues. Mens zijn gaat er voor mij over dat alles er mag zijn: van verdriet, boosheid, angst tot speelsheid, blijdschap en vreugde én om daarbij de pijn en het ongemak te ontvangen over dat het leven niet altijd is en gaat zo als we willen. De uitdaging is om alle delen van onszelf een plek te geven en om ze samen te laten werken voor een leven dat ons vervult.</p>
+							<p>Mijn leven kenmerkt zich door zoeken. Inmiddels weet ik heel wat over mijzelf, weet ik sommige dingen een beetje en zijn andere zaken nog onbekend. Dit ‘nietweten’ is een spannend gebied en vraagt om controle los te laten en vertrouwen te hebben. Ik navigeer nu met focus en met ruimte voor verandering en verassingen. Om volop in het leven aanwezig te kunnen zijn heb ik ontdekt dat het belangrijkste voor mij is om thuis te zijn bij mezelf, verbonden te zijn met mijn lichaam, mijn emoties te omarmen en een zinvol leven te leiden. Dit geeft mij de basis om de ander te ontmoeten en in de wereld te zijn.</p>
 						</div>
 				 	</div>
 				</div>
@@ -56,8 +63,44 @@
 				<h4 class="title is-4">Werkwijze</h4>
 				<h2 class="subtitle">Over lichaamsgerichte psychotherapie</h2>
 				<div class="content">
-					<p>Praten is een belangrijke manier om woorden te geven aan je gedachten of gevoelens en om te begrijpen. Maar, praten kan ook een manier zijn van het hoofd om niet te hoeven voelen. Het lichaam is een ingang naar je binnenwereld. Lichaamssignalen zoals de ademhaling, de hartslag of fysieke sensaties geven informatie over hoe het met je is. Door je bewust te worden van deze signalen kan je jezelf leren kennen in wat niet fijn is en waar je juist wel blij van wordt. Zo kan je beter voor jezelf zorgen en wordt je leven een stuk voller en mooier.</p>
-					<p>Integrated psychotherapie is een holistische vorm van werken waarin zowel het lichaam als de geest een rol spelen. Ik werk met verschillende lichaamsgerichte methodes, zoals bio-energetica, karakteranalyse, bodydrama en ademwerk. De lichamelijke ervaring van sensaties en gewaarwordingen speelt een belangrijke rol in de sessies en daarnaast is er ruimte voor begrip en duiding.</p>
+					<p>Praten is een belangrijke manier om woorden te geven aan gedachten of gevoelens en begrip te krijgen. Praten kan ook een manier zijn van het hoofd om niet te hoeven voelen wat er eigenlijk speelt. Veel mensen vinden emoties zoals verdriet, angst of boosheid zijn lastiger om te ervaren en anderzijds kan het zo zijn dat iemand zijn blijdschap juist inhoudt en niet in contact kan brengen. Het is belangrijk om expressie te geven aan wat er jou als mens leeft, want anders stagneert je energie, word je ongelukkig en ontwikkel je allerlei (lichamelijke) klachten.</p>
+					<p>Het lichaam biedt een ingang naar jouw binnenwereld. Lichaamssignalen zoals de ademhaling, de hartslag of fysieke sensaties geven informatie over hoe het met je is. Door je bewust te worden van deze signalen kan je jezelf leren kennen in wat niet fijn is en waar je juist wel blij van wordt. Je leert hier uitdrukking aan te geven en brengt dit in contact. Zo kan je beter voor jezelf zorgen, worden je relaties waardevoller en je leven prettiger.</p>
+					<p>Integrated psychotherapie is de overkoepelende naam van de opleiding die ik volg. Het is een holistische vorm van werken waarin zowel het lichaam als de geest een rol spelen. Ik maak gebruik van verschillende lichaamsgerichte methodes, zoals bio-energetica, karakteranalyse, bodydrama en ademwerk. In een sessie staat de lichamelijke ervaring centraal en wordt er gesproken om begrip en duiding te geven aan de ervaring.</p>
+				</div>
+			</div>
+		</section>
+		<!-- Photos -->
+		<section class="section">
+			<div class="columns is-multiline is-mobile has-text-centered">
+				<div class="column is-one-third-mobile">
+					<figure class="image is-128x128 is-inline-block">
+						<img src="./assets/sandra_feel_1.jpg" alt="Sandra Postma">
+					</figure>
+				</div>
+				<div class="column is-one-third-mobile">
+					<figure class="image is-128x128 is-inline-block">
+						<img src="./assets/sandra_feel_2.jpg" alt="Sandra Postma">
+					</figure>
+				</div>
+				<div class="column is-one-third-mobile">
+					<figure class="image is-128x128 is-inline-block">
+						<img src="./assets/sandra_feel_3.jpg" alt="Sandra Postma">
+					</figure>
+				</div>
+				<div class="column is-one-third-mobile">
+					<figure class="image is-128x128 is-inline-block">
+						<img src="./assets/sandra_feel_4.jpg" alt="Sandra Postma">
+					</figure>
+				</div>
+				<div class="column is-one-third-mobile">
+					<figure class="image is-128x128 is-inline-block">
+						<img src="./assets/sandra_feel_5.jpg" alt="Sandra Postma">
+					</figure>
+				</div>
+				<div class="column is-one-third-mobile">
+					<figure class="image is-128x128 is-inline-block">
+						<img src="./assets/sandra_feel_6.jpg" alt="Sandra Postma">
+					</figure>
 				</div>
 			</div>
 		</section>
@@ -66,8 +109,10 @@
 			<div class="container">
 				<h4 class="title is-4">Sessies</h4>
 				<div class="content">
-					<p>Ik geef onder supervisie van BodyMind sessies in lichaamsgerichte psychotherapie. Op deze manier krijg ik ervaring in het toepassen van de methodes en het werken met cliënten.</p>
-					<p>Deze sessies duren één tot <b>anderhalf uur</b> en kosten <b>25 euro</b>. De sessies vinden plaats op de plek waar ik woon, dit is in Utrecht (Zuilen). Je bent welkomvoor een telefonisch/online of live kennismakingsgesprek van maximaal 20 minuten.</p>
+					<p>Ik geef onder supervisie van BodyMind sessies in lichaamsgerichte psychotherapie. Een sessie duurt 60 tot 75 minuten en bied ik aan tegen gereduceerd tarief omdat ik in opleiding ben. Een sessie kost €25. De sessies vinden plaats in Utrecht (Zuilen).</p>
+					<p>Je bent welkom voor een vrijblijvend intakegesprek om te kijken wat sessies voor jou kunnen betekenen of wat jouw doelstelling zou kunnen zijn. Een intakegesprek is veelal via (video)bellen.</p>
+					<p>Voel je vrij om contact met me op te nemen als je vragen hebt of informatie wil. Via e-mail ben ik het beste bereikbaar.</p>
+					<p><i>Op dit moment werk ik niet met mensen jonger dan 21 jaar of mensen met contra-indicaties. Ik kan je dan doorverwijzen naar een ervaren therapeut.</i></p>
 				</div>
 			</div>
 		</section>
@@ -78,19 +123,25 @@
 					<nav class="level">
 						<div class="level-item has-text-centered">
 							<div>
-								<p class="subtitle"><font-awesome-icon :icon="['fas', 'mobile-alt']"/></p>
+								<span class="icon my-5">
+									<font-awesome-icon :icon="['fas', 'mobile-alt']" size="2x"/>
+								</span>
 								<p class="subtitle">+31 6 1180 3343</p>
 							</div>
 						</div>
 						<div class="level-item has-text-centered">
 							<div>
-								<p class="subtitle"><font-awesome-icon :icon="['fas', 'map-marker-alt']"/></p>
+								<span class="icon my-5">
+									<font-awesome-icon :icon="['fas', 'map-marker-alt']" size="2x"/>
+								</span>
 								<p class="subtitle">Utrecht (Zuilen)</p>
 							</div>
 						</div>
 						<div class="level-item has-text-centered">
 							<div>
-								<p class="subtitle"><font-awesome-icon :icon="['far', 'envelope']"/></p>
+								<span class="icon my-5">
+									<font-awesome-icon :icon="['far', 'envelope']" size="2x"/>
+								</span>
 								<p class="subtitle">sandrapostma91@hotmail.com</p>
 							</div>
 						</div>

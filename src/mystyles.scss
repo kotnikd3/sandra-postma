@@ -1,23 +1,36 @@
 ///////////////////////////////////////
 // Bulma
 ///////////////////////////////////////
-$color-blue: #337ab7;
+
+// New variables
+$color-blue: rgb(51, 121, 183);
+$color-light-green: rgb(245, 252, 249);
+$color-green: rgb(51, 183, 124);
+$color-light-pink: rgb(252, 245, 245);
+$color-light-orange: rgb(252, 247, 241);
+
 //Overriden variables
-$footer-background-color: rgb(250, 252, 251);
-$footer-padding: 28px;
-$tabs-link-active-color: $color-blue;
-$tabs-link-active-border-bottom-color: $color-blue;
-$tabs-link-hover-color: $color-blue;
-$tabs-link-hover-border-bottom-color: $color-blue;
+$footer-background-color: $color-light-green;
+$footer-padding: 32px;
+
+$tabs-link-active-color: $color-green;
+$tabs-link-active-border-bottom-color: $color-green;
+$tabs-link-hover-color: $color-green;
+$tabs-link-hover-border-bottom-color: $color-green;
 
 img {
     width: 80%;
 }
 
 body {
-    background-color: rgb(250, 252, 251);
-    // background-color: rgb(252, 245, 245);
-    // background-color: #fcf7f1;
+    background-color: $color-light-green;
+}
+
+@media(max-width: 767px) {
+    .reverse-columns {
+        flex-direction: column-reverse;
+        display: flex;
+    }
 }
 
 
