@@ -1,15 +1,32 @@
 {
   "name": "sandra-postma",
   "version": "0.1.0",
-  "private": true,
+  "description": "Sandra Postma's website",
+  "author": "Denis Kotnik",
+  "license": "copyleft",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kotnikd3/sandra-postma.git"
+  },
+  "keywords": [
+    "website",
+    "personal",
+    "sandra",
+    "postma",
+    "sandra postma"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-regular-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/vue-fontawesome": "^3.0.0-4",
     "bulma": "^0.9.3",
-    "core-js": "^3.8.3",
-    "vue": "^3.0.4"
+    "vue": "^3.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0-beta.2",
@@ -17,5 +34,10 @@
     "@vue/compiler-sfc": "^3.0.4",
     "sass": "^1.35.2",
     "sass-loader": "^12.1.0"
-  }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
 }

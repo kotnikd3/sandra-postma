@@ -1,4 +1,4 @@
-# sandra-postma
+# www.sandra.kotnik.si
 
 ## About the project
 Web page repository of Sandra Postma build with Vue.js 3 and Bulma.  
