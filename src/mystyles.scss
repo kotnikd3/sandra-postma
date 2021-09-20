@@ -18,23 +18,22 @@ $tabs-link-active-border-bottom-color: $color-green;
 $tabs-link-hover-color: $color-green;
 $tabs-link-hover-border-bottom-color: $color-green;
 
-img {
-    width: 80%;
-}
-
-body {
-    background-color: $color-light-green;
-}
-
-@media(max-width: 767px) {
-    .reverse-columns {
-        flex-direction: column-reverse;
-        display: flex;
-    }
-}
-
-
-@import "~bulma/bulma.sass";
+// Import only what is needed ...
+@import "~bulma/sass/utilities/_all";
+@import "~bulma/sass/base/_all";
+@import "~bulma/sass/elements/container.sass";
+@import "~bulma/sass/elements/icon.sass";
+@import "~bulma/sass/elements/content.sass";
+@import "~bulma/sass/elements/title.sass";
+@import "~bulma/sass/form/_all.sass";
+@import "~bulma/sass/components/level.sass";
+@import "~bulma/sass/components/tabs.sass";
+@import "~bulma/sass/grid/columns.sass";
+@import "~bulma/sass/helpers/_all";
+@import "~bulma/sass/layout/footer.sass";
+@import "~bulma/sass/layout/section.sass";
+// ... OR import all.
+// @import "~bulma/bulma.sass";
 
 
 ///////////////////////////////////////
@@ -56,6 +55,23 @@ body {
          url('./fonts/varela-round-v12-latin-regular.svg#VarelaRound') format('svg'); /* Legacy iOS */
 }
 
+figure > img {
+    border-radius: 100%;
+}
+
+.img-main {
+    width: 80%;
+    border-radius: 5%;
+}
+
+@media(max-width: 767px) {
+    .reverse-columns {
+        flex-direction: column-reverse;
+        display: flex;
+    }
+}
+
 body {
     font-family: 'Varela Round', Helvetica, Arial, sans-serif;
+    background-color: $color-light-green;
 }

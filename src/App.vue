@@ -3,11 +3,11 @@
 		<!-- Navbar -->
 		<div class="tabs is-right is-fixed-top" id="home">
 			<ul>
-				<li :class="{'is-active' : navbarItem == 'home'}" @click="scrollTo('home')"><a>Home</a></li>
-				<li :class="{'is-active' : navbarItem == 'over-mij'}" @click="scrollTo('over-mij')"><a>Over Mij</a></li>
-				<li :class="{'is-active' : navbarItem == 'werkwijze'}" @click="scrollTo('werkwijze')"><a>Werkwijze</a></li>
-				<li :class="{'is-active' : navbarItem == 'sessies'}" @click="scrollTo('sessies')"><a>Sessies</a></li>
-				<li :class="{'is-active' : navbarItem == 'contact'}" @click="scrollTo('contact')"><a>Contact</a></li>
+				<li class="is-active" @click="scrollTo('home')"><a>Home</a></li>
+				<li @click="scrollTo('over-mij')"><a>Over Mij</a></li>
+				<li @click="scrollTo('werkwijze')"><a>Werkwijze</a></li>
+				<li @click="scrollTo('sessies')"><a>Sessies</a></li>
+				<li @click="scrollTo('contact')"><a>Contact</a></li>
 			</ul>
 		</div>
 		<!-- Home -->
@@ -16,10 +16,10 @@
 				<div class="columns is-vcentered">
 					<!-- Column -->
 					<div class="column">
-						<h1 class="title">Buitengewoon-Mens</h1>
+						<h1 class="title">Buitengewoon-mens</h1>
 						<h2 class="subtitle">Lichaamsgerichte psychotherapie</h2>
 						<div class="content">
-							<p>Ha! Mijn naam is Sandra en ik ben derdejaarsstudenteIntegrated Psychotherapy bij Bodymind Opleidingen. Ik geef onder supervisie van het opleidingsinstituut oefensessies lichaamsgerichte psychotherapie.</p>
+							<p>Ha! Mijn naam is Sandra en ik ben derdejaarsstudente Integrated Psychotherapy bij Bodymind Opleidingen. Ik geef onder supervisie van het opleidingsinstituut oefensessies lichaamsgerichte psychotherapie.</p>
 							<p>Wil jij in beweging komen en ben je bereid tot zelfonderzoek?Wil je ontdekken wat jouw lichaam en je emoties je vertellen? Lichaamsgerichte psychotherapie biedt jou hiertoe een ingang en je bentwelkom bij buitengewoon-mens. De potentiële winst:</p>
 							<ul>
 								<li>je voelt je blijer met jezelf</li>
@@ -33,7 +33,7 @@
 				 	</div>
 					<!-- Column -->
 				 	<div class="column has-text-centered">
-						<img src="./assets/bridge.jpg" alt="Sandra Postma">
+						<img class="img-main" src="./assets/bridge.jpg" alt="Sandra Postma">
 					</div>
 				</div>
 			</div>
@@ -44,7 +44,7 @@
 				<div class="columns is-vcentered reverse-columns">
 					<!-- Column -->
 				 	<div class="column has-text-centered">
-						<img src="./assets/sandra.jpg" alt="Sandra Postma">
+						<img class="img-main" src="./assets/sandra.jpg" alt="Sandra Postma">
 					</div>
 					<!-- Column -->
 					<div class="column">
@@ -71,36 +71,38 @@
 		</section>
 		<!-- Photos -->
 		<section class="section">
-			<div class="columns is-multiline is-mobile has-text-centered">
-				<div class="column is-one-third-mobile">
-					<figure class="image is-128x128 is-inline-block">
-						<img src="./assets/sandra_feel_1.jpg" alt="Sandra Postma">
-					</figure>
-				</div>
-				<div class="column is-one-third-mobile">
-					<figure class="image is-128x128 is-inline-block">
-						<img src="./assets/sandra_feel_2.jpg" alt="Sandra Postma">
-					</figure>
-				</div>
-				<div class="column is-one-third-mobile">
-					<figure class="image is-128x128 is-inline-block">
-						<img src="./assets/sandra_feel_3.jpg" alt="Sandra Postma">
-					</figure>
-				</div>
-				<div class="column is-one-third-mobile">
-					<figure class="image is-128x128 is-inline-block">
-						<img src="./assets/sandra_feel_4.jpg" alt="Sandra Postma">
-					</figure>
-				</div>
-				<div class="column is-one-third-mobile">
-					<figure class="image is-128x128 is-inline-block">
-						<img src="./assets/sandra_feel_5.jpg" alt="Sandra Postma">
-					</figure>
-				</div>
-				<div class="column is-one-third-mobile">
-					<figure class="image is-128x128 is-inline-block">
-						<img src="./assets/sandra_feel_6.jpg" alt="Sandra Postma">
-					</figure>
+			<div class="container">
+				<div class="columns is-multiline is-mobile has-text-centered">
+					<div class="column is-one-third-mobile">
+						<figure class="image is-128x128 is-inline-block">
+							<img src="./assets/sandra_feel_1.jpg" alt="Sandra Postma">
+						</figure>
+					</div>
+					<div class="column is-one-third-mobile">
+						<figure class="image is-128x128 is-inline-block">
+							<img src="./assets/sandra_feel_2.jpg" alt="Sandra Postma">
+						</figure>
+					</div>
+					<div class="column is-one-third-mobile">
+						<figure class="image is-128x128 is-inline-block">
+							<img src="./assets/sandra_feel_3.jpg" alt="Sandra Postma">
+						</figure>
+					</div>
+					<div class="column is-one-third-mobile">
+						<figure class="image is-128x128 is-inline-block">
+							<img src="./assets/sandra_feel_4.jpg" alt="Sandra Postma">
+						</figure>
+					</div>
+					<div class="column is-one-third-mobile">
+						<figure class="image is-128x128 is-inline-block">
+							<img src="./assets/sandra_feel_5.jpg" alt="Sandra Postma">
+						</figure>
+					</div>
+					<div class="column is-one-third-mobile">
+						<figure class="image is-128x128 is-inline-block">
+							<img src="./assets/sandra_feel_6.jpg" alt="Sandra Postma">
+						</figure>
+					</div>
 				</div>
 			</div>
 		</section>
