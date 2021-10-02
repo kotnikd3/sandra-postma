@@ -20,7 +20,8 @@
 						<h2 class="subtitle">Lichaamsgerichte psychotherapie</h2>
 						<div class="content">
 							<p>Ha! Mijn naam is Sandra en ik ben derdejaarsstudente Integrated Psychotherapy bij Bodymind Opleidingen. Ik geef onder supervisie van het opleidingsinstituut oefensessies lichaamsgerichte psychotherapie.</p>
-							<p>Wil jij in beweging komen en ben je bereid tot zelfonderzoek?Wil je ontdekken wat jouw lichaam en je emoties je vertellen? Lichaamsgerichte psychotherapie biedt jou hiertoe een ingang en je bentwelkom bij buitengewoon-mens. De potentiële winst:</p>
+							<p>Heb je last van spanning, piekeren, lichamelijke klachten zonder duidelijke fysieke oorzaak, kost het je moeite om te voelen, ben je zoekende naar jezelf en wat je wilt in het leven, lukt het je niet om in beweging te komen of weet je niet hoe, mis je focus, is de relatie met jezelf onprettig of stroomt het niet in contact met de mensen om je heen? Maar ben jij wel nieuwsgierig en bereid tot zelfonderzoek om te ontdekken wat er allemaal in jou leeft en hierin stappen te zetten? Lichaamsgerichte psychotherapie biedt jou een ingang tot al deze vragen en je bent welkom bij buitengewoon-mens.</p>
+							<p>De potentiële winst:</p>
 							<ul>
 								<li>je voelt je blijer met jezelf</li>
 								<li>je ervaart het leven voller</li>
@@ -51,7 +52,7 @@
 						<h4 class="title is-4">Over Mij</h4>
 						<div class="content">
 							<p>Ik ben in 2015 afgestudeerd als antropoloog en de mens in hoe hij of zij denkt, voelt en doet als individu of groep heeft mij altijd gefascineerd. Ik geloof dat ieder mens bijzonder en uniek is en dat we daarnaast allemaal dealen met varianten van dezelfde issues. Mens zijn gaat er voor mij over dat alles er mag zijn: van verdriet, boosheid, angst tot speelsheid, blijdschap en vreugde én om daarbij de pijn en het ongemak te ontvangen over dat het leven niet altijd is en gaat zo als we willen. De uitdaging is om alle delen van onszelf een plek te geven en om ze samen te laten werken voor een leven dat ons vervult.</p>
-							<p>Mijn leven kenmerkt zich door zoeken. Inmiddels weet ik heel wat over mijzelf, weet ik sommige dingen een beetje en zijn andere zaken nog onbekend. Dit ‘nietweten’ is een spannend gebied en vraagt om controle los te laten en vertrouwen te hebben. Ik navigeer nu met focus en met ruimte voor verandering en verassingen. Om volop in het leven aanwezig te kunnen zijn heb ik ontdekt dat het belangrijkste voor mij is om thuis te zijn bij mezelf, verbonden te zijn met mijn lichaam, mijn emoties te omarmen en een zinvol leven te leiden. Dit geeft mij de basis om de ander te ontmoeten en in de wereld te zijn.</p>
+							<p>Mijn leven kenmerkt zich door zoeken. Inmiddels weet ik heel wat over mijzelf, weet ik sommige dingen een beetje en zijn andere zaken nog onbekend. Dit ‘niet-weten’ is een spannend gebied en vraagt om controle los te laten en vertrouwen te hebben. Ik navigeer nu met focus en met ruimte voor verandering en verassingen. Om volop in het leven aanwezig te kunnen zijn heb ik ontdekt dat het belangrijkste voor mij is om thuis te zijn bij mezelf, verbonden te zijn met mijn lichaam, mijn emoties te omarmen en een zinvol leven te leiden. Dit geeft mij de basis om de ander te ontmoeten en in de wereld te zijn.</p>
 						</div>
 				 	</div>
 				</div>
@@ -65,7 +66,18 @@
 				<div class="content">
 					<p>Praten is een belangrijke manier om woorden te geven aan gedachten of gevoelens en begrip te krijgen. Praten kan ook een manier zijn van het hoofd om niet te hoeven voelen wat er eigenlijk speelt. Veel mensen vinden emoties zoals verdriet, angst of boosheid zijn lastiger om te ervaren en anderzijds kan het zo zijn dat iemand zijn blijdschap juist inhoudt en niet in contact kan brengen. Het is belangrijk om expressie te geven aan wat er jou als mens leeft, want anders stagneert je energie, word je ongelukkig en ontwikkel je allerlei (lichamelijke) klachten.</p>
 					<p>Het lichaam biedt een ingang naar jouw binnenwereld. Lichaamssignalen zoals de ademhaling, de hartslag of fysieke sensaties geven informatie over hoe het met je is. Door je bewust te worden van deze signalen kan je jezelf leren kennen in wat niet fijn is en waar je juist wel blij van wordt. Je leert hier uitdrukking aan te geven en brengt dit in contact. Zo kan je beter voor jezelf zorgen, worden je relaties waardevoller en je leven prettiger.</p>
-					<p>Integrated psychotherapie is de overkoepelende naam van de opleiding die ik volg. Het is een holistische vorm van werken waarin zowel het lichaam als de geest een rol spelen. Ik maak gebruik van verschillende lichaamsgerichte methodes, zoals bio-energetica, karakteranalyse, bodydrama en ademwerk. In een sessie staat de lichamelijke ervaring centraal en wordt er gesproken om begrip en duiding te geven aan de ervaring.</p>
+					<p>Integrated psychotherapie is de overkoepelende naam van de opleiding die ik volg. Het is een holistische vorm van werken waarin zowel het lichaam als de geest een rol spelen. Ik maak gebruik van verschillende lichaamsgerichte methodes, zoals bio-energetica, karakteranalyse, bodydrama en ademwerk. In een sessie staat de lichamelijke ervaring centraal en praten we om begrip en duiding te geven aan de ervaring.</p>
+				</div>
+			</div>
+		</section>
+		<!-- Quote -->
+		<section class="section">
+			<div class="container is-size-3 has-text-centered">
+				<div class="content has-text-green">
+					<p>Laat je zien!</p>
+				</div>
+				<div class="content is-size-4 is-italic">					
+					<p>Er is geen verandering van duisternis naar licht, van stilstand naar beweging, zonder emotie.<br> –C. G. Jung</p>
 				</div>
 			</div>
 		</section>
@@ -111,10 +123,10 @@
 			<div class="container">
 				<h4 class="title is-4">Sessies</h4>
 				<div class="content">
-					<p>Ik geef onder supervisie van BodyMind sessies in lichaamsgerichte psychotherapie. Een sessie duurt 60 tot 75 minuten en bied ik aan tegen gereduceerd tarief omdat ik in opleiding ben. Een sessie kost €25. De sessies vinden plaats in Utrecht (Zuilen).</p>
-					<p>Je bent welkom voor een vrijblijvend intakegesprek om te kijken wat sessies voor jou kunnen betekenen of wat jouw doelstelling zou kunnen zijn. Een intakegesprek is veelal via (video)bellen.</p>
+					<p>Ik geef onder supervisie van Bodymind Opleidingen sessies in lichaamsgerichte psychotherapie. Een sessie duurt 60 tot 75 minuten en bied ik aan tegen gereduceerd tarief omdat ik in opleiding ben. Een sessie kost €25 en vindt plaats in Utrecht (Zuilen).</p>
+					<p>Je bent welkom voor een vrijblijvend intakegesprek om te kijken wat sessies voor jou kunnen betekenen. Een intakegesprek is meestal via (video)bellen.</p>
 					<p>Voel je vrij om contact met me op te nemen als je vragen hebt of informatie wil. Via e-mail ben ik het beste bereikbaar.</p>
-					<p><i>Op dit moment werk ik niet met mensen jonger dan 21 jaar of mensen met contra-indicaties. Ik kan je dan doorverwijzen naar een ervaren therapeut.</i></p>
+					<p><i>Op dit moment werk ik niet met mensen jonger dan 21 jaar of mensen met contra-indicaties.</i></p>
 				</div>
 			</div>
 		</section>
@@ -144,7 +156,7 @@
 								<span class="icon my-5">
 									<font-awesome-icon :icon="['far', 'envelope']" size="2x"/>
 								</span>
-								<p class="subtitle">sandrapostma91@hotmail.com</p>
+								<p class="subtitle">sandra@buitengewoon-mens.nl</p>
 							</div>
 						</div>
 					</nav>
