@@ -1,4 +1,4 @@
-# www.sandra.kotnik.si
+# www.buitengewoon-mens.nl
 
 ## About the project
 Web page repository of Sandra Postma build with Vue.js 3 and Bulma.  
