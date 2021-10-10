@@ -77,7 +77,7 @@
 					<p>Laat je zien!</p>
 				</div>
 				<div class="content is-size-4 is-italic">					
-					<p>Er is geen verandering van duisternis naar licht, van stilstand naar beweging, zonder emotie.<br> –C. G. Jung</p>
+					<p>"Er is geen verandering van duisternis naar licht, van stilstand naar beweging, zonder emotie."<br> –C. G. Jung</p>
 				</div>
 			</div>
 		</section>
@@ -175,14 +175,8 @@
 <script>
 export default {
   	name: 'App',
-	data() {
-		return {
-			navbarItem: 'home'
-		}
-	},
 	methods: {
 		scrollTo(id) {
-			this.navbarItem = id;
 			document.getElementById(id).scrollIntoView({
 				behavior: "smooth"
 			});
