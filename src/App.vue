@@ -123,11 +123,10 @@
 			<div class="container">
 				<h4 class="title is-4">Sessies</h4>
 				<div class="content">
-					<p>Ik geef onder supervisie van Bodymind Opleidingen sessies in lichaamsgerichte psychotherapie. Een sessie duurt 60 tot 75 minuten en bied ik aan tegen gereduceerd tarief omdat ik in opleiding ben. Een sessie kost €25 en vindt plaats in Utrecht (Zuilen).</p>
-					<p>Wil je graag een sessie doen? Dan ben je welkom voor een vrijblijvend intakegesprek om te kijken wat sessies voor jou kunnen betekenen. Een intakegesprek kan live of via (video) bellen.</p>
-					<p>Wil je vragen of meer informatie? Voel je vrij om contact met me op te nemen.</p>
-					<p>Ik ben als student lid aangesloten bij de Stichting Beroepsorganisatie voor Lichaamsgeoriënteerde (Psycho)therapie (SBLP). De sessies zijn <i>nog niet declarabel bij de zorgverzekering.</i></p>
-					<p><i>Op dit moment werk ik niet met mensen jonger dan 21 jaar of mensen met contra-indicaties.</i></p>
+					<p>Ik geef onder supervisie van Bodymind Opleidingen sessies in lichaamsgerichte psychotherapie. Een sessie duurt 60 tot 75 minuten, vindt plaats in Utrecht (Zuilen) en bied ik aan tegen gereduceerd tarief omdat ik in opleiding ben; een sessie kost €25.</p>
+					<p>Wil je sessies doen? Dan ben je welkom voor een vrijblijvend intakegesprek om te kijken wat deze voor jou kunnen betekenen. Een intakegesprek kan live of via (video) bellen.</p>
+					<p>Heb je vragen of wil je meer informatie? Voel je vrij om contact met me op te nemen.</p>
+					<p>Ik ben als student-lid aangesloten bij de Stichting Beroepsorganisatie voor Lichaamsgeoriënteerde (Psycho)therapie (SBLP). <i>De sessies zijn nog niet declarabel bij de zorgverzekering en op dit moment werk ik niet met mensen jonger dan 21 jaar of mensen met contra-indicaties.</i></p>
 				</div>
 			</div>
 		</section>
