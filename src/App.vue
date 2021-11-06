@@ -13,8 +13,8 @@
 		<!-- Tabs: language buttons -->
 		<div class="tabs is-right is-toggle">
 			<ul>
-				<li @click="toggleClass('en')" :class="[{ 'is-active' : language == 'en' }]"><a>EN</a></li>
 				<li @click="toggleClass('nl')" :class="[{ 'is-active' : language == 'nl' }]"><a>NL</a></li>
+				<li @click="toggleClass('en')" :class="[{ 'is-active' : language == 'en' }]"><a>EN</a></li>
 			</ul>
 		</div>
 		<!-- Home -->
@@ -166,7 +166,7 @@ export default {
 	data() {
 		// Merge two dictionaries: Object.assign({}, a, b);
 		return Object.assign({}, translations, {
-			language: 'en'
+			language: 'nl'
 		});
 	},
 	methods: {
