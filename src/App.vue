@@ -3,11 +3,11 @@
 		<!-- Tabs: navbar -->
 		<div class="tabs is-right is-fixed-top" id="home">
 			<ul>
-				<li class="is-active" @click="scrollTo('home')"><a>Home</a></li>
-				<li @click="scrollTo('about')"><a>Over Mij</a></li>
-				<li @click="scrollTo('method')"><a>Werkwijze</a></li>
-				<li @click="scrollTo('sessions')"><a>Sessies</a></li>
-				<li @click="scrollTo('contact')"><a>Contact</a></li>
+				<li class="is-active" @click="scrollTo('home')"><a v-html="home[language]"></a></li>
+				<li @click="scrollTo('about')"><a v-html="about[language]"></a></li>
+				<li @click="scrollTo('method')"><a v-html="method[language]"></a></li>
+				<li @click="scrollTo('sessions')"><a v-html="sessions[language]"></a></li>
+				<li @click="scrollTo('contact')"><a v-html="contact[language]"></a></li>
 			</ul>
 		</div>
 		<!-- Tabs: language buttons -->
