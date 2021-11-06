@@ -18,6 +18,9 @@ $tabs-link-active-border-bottom-color: $color-green;
 $tabs-link-hover-color: $color-green;
 $tabs-link-hover-border-bottom-color: $color-green;
 
+// Old styles
+$link: $color-green;
+
 // Import only what is needed ...
 @import "~bulma/sass/utilities/_all";
 @import "~bulma/sass/base/_all";
@@ -66,6 +69,10 @@ figure > img {
 
 .has-text-green {
     color: $color-green;
+}
+
+.tabs.is-toggle {
+    padding-right: 5%;
 }
 
 @media(max-width: 767px) {

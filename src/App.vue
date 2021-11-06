@@ -1,13 +1,20 @@
 <template>
     <div>
-		<!-- Navbar -->
+		<!-- Tabs: navbar -->
 		<div class="tabs is-right is-fixed-top" id="home">
 			<ul>
 				<li class="is-active" @click="scrollTo('home')"><a>Home</a></li>
-				<li @click="scrollTo('over-mij')"><a>Over Mij</a></li>
-				<li @click="scrollTo('werkwijze')"><a>Werkwijze</a></li>
-				<li @click="scrollTo('sessies')"><a>Sessies</a></li>
+				<li @click="scrollTo('about')"><a>Over Mij</a></li>
+				<li @click="scrollTo('method')"><a>Werkwijze</a></li>
+				<li @click="scrollTo('sessions')"><a>Sessies</a></li>
 				<li @click="scrollTo('contact')"><a>Contact</a></li>
+			</ul>
+		</div>
+		<!-- Tabs: language buttons -->
+		<div class="tabs is-right is-toggle">
+			<ul>
+				<li @click="toggleClass('en')" :class="[{ 'is-active' : language == 'en' }]"><a>EN</a></li>
+				<li @click="toggleClass('nl')" :class="[{ 'is-active' : language == 'nl' }]"><a>NL</a></li>
 			</ul>
 		</div>
 		<!-- Home -->
@@ -16,21 +23,9 @@
 				<div class="columns is-vcentered">
 					<!-- Column -->
 					<div class="column">
-						<h1 class="title">Buitengewoon-mens</h1>
-						<h2 class="subtitle">Lichaamsgerichte psychotherapie</h2>
-						<div class="content">
-							<p>Ha! Mijn naam is Sandra en ik ben derdejaarsstudente Integrated Psychotherapy bij Bodymind Opleidingen. Ik geef onder supervisie van het opleidingsinstituut oefensessies lichaamsgerichte psychotherapie.</p>
-							<p>Heb je last van spanning, piekeren, lichamelijke klachten zonder duidelijke fysieke oorzaak, kost het je moeite om te voelen, ben je zoekende naar jezelf en wat je wilt in het leven, lukt het je niet om in beweging te komen of weet je niet hoe, mis je focus, is de relatie met jezelf onprettig of stroomt het niet in contact met de mensen om je heen? Maar ben jij wel nieuwsgierig en bereid tot zelfonderzoek om te ontdekken wat er allemaal in jou leeft en hierin stappen te zetten? Lichaamsgerichte psychotherapie biedt jou een ingang tot al deze vragen en je bent welkom bij buitengewoon-mens.</p>
-							<p>De potentiële winst:</p>
-							<ul>
-								<li>je voelt je blijer met jezelf</li>
-								<li>je ervaart het leven voller</li>
-								<li>je bent meer ontspannen</li>
-								<li>je voelt je creatiever, speelser en hebt meer plezier</li>
-								<li>je krijgt meer zicht en doel op wie jij bent en wat jij belangrijk vindt in het leven</li>
-								<li>je relaties verbeteren en verdiepen.</li>
-							</ul>
-						</div>
+						<h1 class="title" v-html="homeTitle[language]"></h1>
+						<h2 class="subtitle" v-html="homeSubtitle[language]"></h2>
+						<div class="content" v-html="homeContent[language]"></div>
 				 	</div>
 					<!-- Column -->
 				 	<div class="column has-text-centered">
@@ -39,8 +34,8 @@
 				</div>
 			</div>
 		</section>
-		<!-- Over mij -->
-		<section class="section" id="over-mij">
+		<!-- About Sandra -->
+		<section class="section" id="about">
 			<div class="container">
 				<div class="columns is-vcentered reverse-columns">
 					<!-- Column -->
@@ -49,36 +44,31 @@
 					</div>
 					<!-- Column -->
 					<div class="column">
-						<h4 class="title is-4">Over Mij</h4>
-						<div class="content">
-							<p>Ik ben in 2015 afgestudeerd als antropoloog en de mens in hoe hij of zij denkt, voelt en doet als individu of groep heeft mij altijd gefascineerd. Ik geloof dat ieder mens bijzonder en uniek is en dat we daarnaast allemaal dealen met varianten van dezelfde issues. Mens zijn gaat er voor mij over dat alles er mag zijn: van verdriet, boosheid, angst tot speelsheid, blijdschap en vreugde én om daarbij de pijn en het ongemak te ontvangen over dat het leven niet altijd is en gaat zo als we willen. De uitdaging is om alle delen van onszelf een plek te geven en om ze samen te laten werken voor een leven dat ons vervult.</p>
-							<p>Mijn leven kenmerkt zich door zoeken. Inmiddels weet ik heel wat over mijzelf, weet ik sommige dingen een beetje en zijn andere zaken nog onbekend. Dit ‘niet-weten’ is een spannend gebied en vraagt om controle los te laten en vertrouwen te hebben. Ik navigeer nu met focus en met ruimte voor verandering en verassingen. Om volop in het leven aanwezig te kunnen zijn heb ik ontdekt dat het belangrijkste voor mij is om thuis te zijn bij mezelf, verbonden te zijn met mijn lichaam, mijn emoties te omarmen en een zinvol leven te leiden. Dit geeft mij de basis om de ander te ontmoeten en in de wereld te zijn.</p>
-						</div>
+						<h4 class="title is-4" v-html="about[language]"></h4>
+						<div class="content" v-html="aboutContent[language]"></div>
+						<h2 class="subtitle" v-html="visionTitle[language]"></h2>
+						<div class="content" v-html="visionContent[language]"></div>
 				 	</div>
 				</div>
 			</div>
 		</section>
-		<!-- Werkwijze -->
-		<section class="section" id="werkwijze">
+		<!-- Method -->
+		<section class="section" id="method">
 			<div class="container">
-				<h4 class="title is-4">Werkwijze</h4>
-				<h2 class="subtitle">Over lichaamsgerichte psychotherapie</h2>
-				<div class="content">
-					<p>Praten is een belangrijke manier om woorden te geven aan gedachten of gevoelens en begrip te krijgen. Praten kan ook een manier zijn van het hoofd om niet te hoeven voelen wat er eigenlijk speelt. Veel mensen vinden emoties zoals verdriet, angst of boosheid zijn lastiger om te ervaren en anderzijds kan het zo zijn dat iemand zijn blijdschap juist inhoudt en niet in contact kan brengen. Het is belangrijk om expressie te geven aan wat er jou als mens leeft, want anders stagneert je energie, word je ongelukkig en ontwikkel je allerlei (lichamelijke) klachten.</p>
-					<p>Het lichaam biedt een ingang naar jouw binnenwereld. Lichaamssignalen zoals de ademhaling, de hartslag of fysieke sensaties geven informatie over hoe het met je is. Door je bewust te worden van deze signalen kan je jezelf leren kennen in wat niet fijn is en waar je juist wel blij van wordt. Je leert hier uitdrukking aan te geven en brengt dit in contact. Zo kan je beter voor jezelf zorgen, worden je relaties waardevoller en je leven prettiger.</p>
-					<p>Integrated psychotherapie is de overkoepelende naam van de opleiding die ik volg. Het is een holistische vorm van werken waarin zowel het lichaam als de geest een rol spelen. Ik maak gebruik van verschillende lichaamsgerichte methodes, zoals bio-energetica, karakteranalyse, bodydrama en ademwerk. In een sessie staat de lichamelijke ervaring centraal en praten we om begrip en duiding te geven aan de ervaring.</p>
-				</div>
+				<h4 class="title is-4" v-html="method[language]"></h4>
+				<h2 class="subtitle" v-html="methodOneSubtitle[language]"></h2>
+				<div class="content" v-html="methodOneContent[language]"></div>
+				<h2 class="subtitle" v-html="methodTwoSubtitle[language]"></h2>
+				<div class="content" v-html="methodTwoContent[language]"></div>
+				<h2 class="subtitle" v-html="methodThreeSubtitle[language]"></h2>
+				<div class="content" v-html="methodThreeContent[language]"></div>
 			</div>
 		</section>
 		<!-- Quote -->
 		<section class="section">
 			<div class="container is-size-3 has-text-centered">
-				<div class="content has-text-green">
-					<p>Laat je zien!</p>
-				</div>
-				<div class="content is-size-4 is-italic">					
-					<p>"Er is geen verandering van duisternis naar licht, van stilstand naar beweging, zonder emotie."<br> –C. G. Jung</p>
-				</div>
+				<div class="content has-text-green" v-html="quoteBig[language]"></div>
+				<div class="content is-size-4 is-italic" v-html="quoteSmall[language]"></div>
 			</div>
 		</section>
 		<!-- Photos -->
@@ -118,16 +108,11 @@
 				</div>
 			</div>
 		</section>
-		<!-- Sessies -->
-		<section class="section" id="sessies">
+		<!-- Sessions -->
+		<section class="section" id="sessions">
 			<div class="container">
-				<h4 class="title is-4">Sessies</h4>
-				<div class="content">
-					<p>Ik geef onder supervisie van Bodymind Opleidingen sessies in lichaamsgerichte psychotherapie. Een sessie duurt 60 tot 75 minuten, vindt plaats in Utrecht (Zuilen) en bied ik aan tegen gereduceerd tarief omdat ik in opleiding ben; een sessie kost €25.</p>
-					<p>Wil je sessies doen? Dan ben je welkom voor een vrijblijvend intakegesprek om te kijken wat deze voor jou kunnen betekenen. Een intakegesprek kan live of via (video) bellen.</p>
-					<p>Heb je vragen of wil je meer informatie? Voel je vrij om contact met me op te nemen.</p>
-					<p>Ik ben als student-lid aangesloten bij de Stichting Beroepsorganisatie voor Lichaamsgeoriënteerde (Psycho)therapie (SBLP). <i>De sessies zijn nog niet declarabel bij de zorgverzekering en op dit moment werk ik niet met mensen jonger dan 21 jaar of mensen met contra-indicaties.</i></p>
-				</div>
+				<h4 class="title is-4" v-html="sessions[language]"></h4>
+				<div class="content" v-html="sessionsContent[language]"></div>
 			</div>
 		</section>
 		<!-- Contact -->
@@ -167,16 +152,27 @@
 		<footer class="footer">
 			<div class="container has-text-centered">
 				<p class="has-text-grey">Sandra Postma <font-awesome-icon :icon="['far', 'copyright']" flip="horizontal"/> 2021</p>
-				<p style="font-size: x-small;"><i><a class="has-text-grey" href="https://www.kotnik.si" target="_blank">Gemaakt door Denis Kotnik</a></i></p>
+				<p style="font-size: x-small;"><i><a class="has-text-grey" href="https://www.kotnik.si" target="_blank"><span v-html="madeBy[language]"></span> Denis Kotnik</a></i></p>
 			</div>
 		</footer>
 	</div>
 </template>
 
 <script>
+import { translations } from './Translations.js';
+
 export default {
   	name: 'App',
+	data() {
+		// Merge two dictionaries: Object.assign({}, a, b);
+		return Object.assign({}, translations, {
+			language: 'en'
+		});
+	},
 	methods: {
+		toggleClass(_language) {
+			this.language = _language;
+		},
 		scrollTo(id) {
 			document.getElementById(id).scrollIntoView({
 				behavior: "smooth"
