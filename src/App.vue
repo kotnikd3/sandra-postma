@@ -24,7 +24,7 @@
 					<!-- Column -->
 					<div class="column">
 						<h1 class="title" v-html="homeTitle[language]"></h1>
-						<h2 class="subtitle" v-html="homeSubtitle[language]"></h2>
+						<h2 class="subtitle has-text-weight-bold" v-html="homeSubtitle[language]"></h2>
 						<div class="content" v-html="homeContent[language]"></div>
 				 	</div>
 					<!-- Column -->
@@ -46,7 +46,7 @@
 					<div class="column">
 						<h4 class="title is-4" v-html="about[language]"></h4>
 						<div class="content" v-html="aboutContent[language]"></div>
-						<h2 class="subtitle" v-html="visionTitle[language]"></h2>
+						<h2 class="subtitle has-text-weight-bold" v-html="visionTitle[language]"></h2>
 						<div class="content" v-html="visionContent[language]"></div>
 				 	</div>
 				</div>
@@ -56,11 +56,11 @@
 		<section class="section" id="method">
 			<div class="container">
 				<h4 class="title is-4" v-html="method[language]"></h4>
-				<h2 class="subtitle" v-html="methodOneSubtitle[language]"></h2>
+				<h2 class="subtitle has-text-weight-bold" v-html="methodOneSubtitle[language]"></h2>
 				<div class="content" v-html="methodOneContent[language]"></div>
-				<h2 class="subtitle" v-html="methodTwoSubtitle[language]"></h2>
+				<h2 class="subtitle has-text-weight-bold" v-html="methodTwoSubtitle[language]"></h2>
 				<div class="content" v-html="methodTwoContent[language]"></div>
-				<h2 class="subtitle" v-html="methodThreeSubtitle[language]"></h2>
+				<h2 class="subtitle has-text-weight-bold" v-html="methodThreeSubtitle[language]"></h2>
 				<div class="content" v-html="methodThreeContent[language]"></div>
 			</div>
 		</section>
