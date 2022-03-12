@@ -131,17 +131,17 @@
 						<div class="level-item has-text-centered">
 							<div>
 								<span class="icon my-5">
-									<font-awesome-icon :icon="['fas', 'map-marker-alt']" size="2x"/>
+									<font-awesome-icon :icon="['far', 'envelope']" size="2x"/>
 								</span>
-								<p class="subtitle">Utrecht (Zuilen)</p>
+								<p class="subtitle">sandra@buitengewoon-mens.nl</p>
 							</div>
 						</div>
 						<div class="level-item has-text-centered">
 							<div>
 								<span class="icon my-5">
-									<font-awesome-icon :icon="['far', 'envelope']" size="2x"/>
+									<font-awesome-icon :icon="['fas', 'map-marker-alt']" size="2x"/>
 								</span>
-								<p class="subtitle">sandra@buitengewoon-mens.nl</p>
+								<p class="subtitle">Utrecht (Zuilen)</p>
 							</div>
 						</div>
 					</nav>
