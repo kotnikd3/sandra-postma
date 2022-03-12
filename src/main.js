@@ -5,10 +5,10 @@ import App from './App.vue'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faGithub, faGoodreads } from '@fortawesome/free-brands-svg-icons'
 import { faCopyright, faEnvelope } from '@fortawesome/free-regular-svg-icons'
-import { faMobileAlt, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
+import { faMobileAlt, faMapMarkerAlt, faQrcode } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-library.add(faGithub, faGoodreads, faCopyright, faMobileAlt, faMapMarkerAlt, faEnvelope)
+library.add(faGithub, faGoodreads, faCopyright, faMobileAlt, faMapMarkerAlt, faEnvelope, faQrcode)
 
 // Custom CSS
 require('./mystyles.scss');

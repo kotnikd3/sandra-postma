@@ -144,6 +144,14 @@
 								<p class="subtitle">Utrecht (Zuilen)</p>
 							</div>
 						</div>
+						<div class="level-item has-text-centered">
+							<div>
+								<span class="icon my-5">
+									<font-awesome-icon :icon="['fas', 'qrcode']" size="2x"/>
+								</span>
+								<p class="subtitle">KvK-nummer: 71289232</p>
+							</div>
+						</div>
 					</nav>
 				</section>
 			</div>
