@@ -58,8 +58,12 @@ $link: $color-green;
          url('./fonts/varela-round-v12-latin-regular.svg#VarelaRound') format('svg'); /* Legacy iOS */
 }
 
-figure > img {
+section.photos figure img {
     border-radius: 100%;
+}
+
+footer figure img {
+    width: 300px;
 }
 
 .img-main {

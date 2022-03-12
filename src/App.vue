@@ -72,7 +72,7 @@
 			</div>
 		</section>
 		<!-- Photos -->
-		<section class="section">
+		<section class="section photos">
 			<div class="container">
 				<div class="columns is-multiline is-mobile has-text-centered">
 					<div class="column is-one-third-mobile">
@@ -151,6 +151,12 @@
 		<!-- Footer -->
 		<footer class="footer">
 			<div class="container has-text-centered">
+				<a href="https://sblp.nl/" target="_blank">
+					<figure>
+						<img src="./assets/logo.png">
+					</figure>
+				</a>
+				<br>
 				<p class="has-text-grey">Sandra Postma <font-awesome-icon :icon="['far', 'copyright']" flip="horizontal"/> 2022</p>
 				<p style="font-size: x-small;"><i><a class="has-text-grey" href="https://www.kotnik.si" target="_blank"><span v-html="madeBy[language]"></span> Denis Kotnik</a></i></p>
 			</div>
