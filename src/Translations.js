@@ -28,7 +28,7 @@ export const translations = {
         'nl': `Lichaamsgerichte psychotherapie`
     },
     homeContent: {
-        'en': `<p>Hi! My name is Sandra and I am a third-year student of Integrated Psychotherapy at the BodyMind Institute. In order to gain experience and practice my skills, I am available for sessions at a reduced rate, supervised by the BodyMind institute.</p>
+        'en': `<p>Hi! My name is Sandra and in September I am starting in the fourth year of the study Integrated Psychotherapy at the BodyMind Institute. In order to gain experience and practice my skills, I am available for sessions at a reduced rate, supervised by the BodyMind institute.</p>
         <ul>
             <li>Are you suffering from tension, worrying, physical complaints without a clear physical cause?</li>
             <li>Is it difficult for you to feel your feelings and emotions?</li>
@@ -48,7 +48,7 @@ export const translations = {
             <li>you get more insight in who you are and what is important for you in your life</li>
         </ul>`,
         
-        'nl': `<p>Ha! Mijn naam is Sandra en ik ben derdejaarsstudente Integrated Psychotherapy bij BodyMind Opleidingen. Om ervaring op te doen en mijn vaardigheden te oefenen, ben ik beschikbaar voor sessies tegen een gereduceerd tarief, onder supervisie van het BodyMind instituut.</p>
+        'nl': `<p>Ha! Mijn naam is Sandra en in september start ik in het vierde jaar van de opleiding Integrated Psychotherapy bij BodyMind Opleidingen. Om ervaring op te doen en mijn vaardigheden te oefenen, ben ik beschikbaar voor sessies tegen een gereduceerd tarief, onder supervisie van het BodyMind instituut.</p>
         <ul>
             <li>Heb je last van spanning, piekeren, lichamelijke klachten zonder duidelijke fysieke oorzaak?</li>
             <li>Is het lastig voor je om te voelen?</li>
@@ -71,14 +71,14 @@ export const translations = {
         'en': `<p>Years of unexplained abdominal complaints were the reason for me to delve into the relationship between body and mind. Body work, in particular, has taught me how emotions, thoughts and tensions get stuck in my body. I have since learned how to deal with it differently. I feel happier and more relaxed now.</p>
         <p>It has always fascinated me how people think, feel and act, both as individuals and in groups, and also in different cultures. In 2015, I graduated as an anthropologist. I spent a total of one and a half years in Latin America, living among the locals.</p>
         <p>From 2017 to 2020, I followed various longer personal leadership training courses at the Omega School of Life at Centrum Venwoude. Bodywork and emotion work are a central part of their approach.</p>
-        <p>My own quest for therapy and bodywork yielded so much that I felt I want to make it my profession. I am now in the third year of the 4-year professional BodyMind training, which I hope to complete in 2023.</p>
-        <p>I live in Utrecht and have a Slovenian boyfriend, whose ambitions are also to work as a therapist in the future.</p>`,
+        <p>My own quest for therapy and bodywork yielded so much that I felt I want to make it my profession. I hope to complete the studies at the BodyMind institute in 2023/2024.</p>
+        <p>I live in Leeuwarden and have a Slovenian boyfriend, whose ambitions are also to work as a therapist in the future.</p>`,
         
         'nl': `<p>Jarenlange onverklaarbare buikklachten waren voor mij de aanleiding om me te verdiepen in de relatie tussen lichaam en geest. Vooral lichaamswerk heeft me leren zien hoe emoties, gedachten en spanningen zich in mijn lijf vastzetten. Inmiddels heb ik geleerd hoe ik daar anders mee om kan gaan. Ik voel mij nu blijer en meer ontspannen.</p>
         <p>Sowieso heeft het me altijd gefascineerd hoe mensen denken, voelen en handelen, zowel als individu als in groepen, en ook in verschillende culturen. In 2015 ben ik afgestudeerd als antropoloog. Ik heb in totaal anderhalf jaar in Latijns-Amerika gespendeerd en leefde daar tussen de lokale bevolking.</p>
         <p>Van 2017 tot 2020 heb ik op Centrum Venwoude diverse langere trainingen persoonlijk leiderschap gevolgd bij de Omega Levensschool. Lichaamswerk en emotiewerk vormen een centraal onderdeel van die benadering van persoonlijk leiderschap.</p>
-        <p>Uiteindelijk leverde mijn eigen zoektocht op het gebied van therapie en lichaamswerk me zoveel op dat ik voelde dat ik daar mijn beroep van wilde maken. Ik zit nu in het derde jaar van de opleiding BodyMind, die ik in 2023 hoop af te ronden.</p>
-        <p>Ik woon in Utrecht en heb een Sloveense vriend, wiens ambities ook zijn om later als therapeut te werken.</p>`
+        <p>Uiteindelijk leverde mijn eigen zoektocht op het gebied van therapie en lichaamswerk me zoveel op dat ik voelde dat ik daar mijn beroep van wilde maken. Ik hoop de opleiding van het BodyMind instituut in 2023/2024 af te ronden.</p>
+        <p>Ik woon in Leeuwarden en heb een Sloveense vriend, wiens ambities ook zijn om later als therapeut te werken.</p>`
     },
     visionTitle: {
         'en': `My vision`,
@@ -129,11 +129,11 @@ export const translations = {
         'nl': `"Er is geen verandering van duisternis naar licht, van stilstand naar beweging, zonder emotie."<br>–C. G. Jung`,
     },
     sessionsContent: {
-        'en': `<p>Are you stuck in something in your life, your relationships, your body or in yourself? And do you want to know if I can help you take the next step? Until my graduation (2023/2024) I regularly have room for practice clients at a reduced rate. A session costs €35, lasts 60 to 75 minutes and takes place in Utrecht (Zuilen). The intake session takes about 90 minutes. I give the sessions under the supervision of the BodyMind Institute. A session can be in Dutch or English.</p>
+        'en': `<p>Are you stuck in something in your life, your relationships, your body or in yourself? And do you want to know if I can help you take the next step? Until my graduation (2023/2024) I regularly have room for practice clients at a reduced rate. A session costs €40, lasts 60 to 75 minutes and takes place in Leeuwarden (Camminghaburen). The intake session takes about 90 minutes. I give the sessions under the supervision of the BodyMind Institute. A session can be in Dutch, Frisian or English.</p>
         <p>Feel free to call or to send me an email to make an appointment for a telephone introduction or for a question or more information.</p>
         <p>As a student member I am affiliated with the Foundation for the Professional Organization for Body Oriented (Psycho)therapy (SBLP). The sessions are not yet billable to health insurance companies and at the moment I do not work with people under the age of 21 or people with contraindications.</p>`,
         
-        'nl': `<p>Loop je ergens tegenaan in je leven, je relaties, je lijf of in jezelf? En wil je weten of ik je kan helpen een volgende stap te zetten? Ik heb tot mijn afstuderen (2023/2024) regelmatig ruimte voor oefen-cliënten tegen gereduceerd tarief. Een sessie kost €35, duurt 60 tot 75 minuten en vindt plaats in Utrecht (Zuilen). De intake sessie duurt ongeveer 90 minuten. Ik geef de sessies onder supervisie van het opleidingsinstituut. Een sessie kan in het Nederlands of Engels.</p>
+        'nl': `<p>Loop je ergens tegenaan in je leven, je relaties, je lijf of in jezelf? En wil je weten of ik je kan helpen een volgende stap te zetten? Ik heb tot mijn afstuderen (2023/2024) regelmatig ruimte voor oefen-cliënten tegen gereduceerd tarief. Een sessie kost €40, duurt 60 tot 75 minuten en vindt plaats in Leeuwarden (Camminghaburen). De intake sessie duurt ongeveer 90 minuten. Ik geef de sessies onder supervisie van het opleidingsinstituut. Een sessie kan in het Nederlands, Fries of Engels.</p>
         <p>Bel of mail gerust om een afspraak te maken voor een telefonische kennismaking of voor een vraag of meer informatie.</p>
         <p>Ik ben als student-lid aangesloten bij de Stichting Beroepsorganisatie voor Lichaamsgeoriënteerde (Psycho)therapie (SBLP). De sessies zijn nog niet declarabel bij de zorgverzekering en op dit moment werk ik niet met mensen jonger dan 21 jaar of mensen met contra-indicaties.</p>`,
     },

@@ -141,7 +141,7 @@
 								<span class="icon my-5">
 									<font-awesome-icon :icon="['fas', 'map-marker-alt']" size="2x"/>
 								</span>
-								<p class="subtitle">Utrecht (Zuilen)</p>
+								<p class="subtitle">Leeuwarden (Camminghaburen)</p>
 							</div>
 						</div>
 						<div class="level-item has-text-centered">

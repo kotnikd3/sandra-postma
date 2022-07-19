@@ -18,4 +18,6 @@ npm run serve
 ```
 npm run build
 cp CNAME docs/
+# or
+./build.sh
 ```
