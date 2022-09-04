@@ -28,7 +28,7 @@ export const translations = {
         'nl': `Lichaamsgerichte psychotherapie`
     },
     homeContent: {
-        'en': `<p>Hi! My name is Sandra and in September I am starting in the fourth year of the study Integrated Psychotherapy at the BodyMind Institute. In order to gain experience and practice my skills, I am available for sessions at a reduced rate, supervised by the BodyMind institute.</p>
+        'en': `<p>Hi! My name is Sandra and I am in the fourth year of the study Integrated Psychotherapy at the BodyMind Institute. In order to gain experience and practice my skills, I am available for sessions at a reduced rate, supervised by the BodyMind institute.</p>
         <ul>
             <li>Are you suffering from tension, worrying, physical complaints without a clear physical cause?</li>
             <li>Is it difficult for you to feel your feelings and emotions?</li>
@@ -48,7 +48,7 @@ export const translations = {
             <li>you get more insight in who you are and what is important for you in your life</li>
         </ul>`,
         
-        'nl': `<p>Ha! Mijn naam is Sandra en in september start ik in het vierde jaar van de opleiding Integrated Psychotherapy bij BodyMind Opleidingen. Om ervaring op te doen en mijn vaardigheden te oefenen, ben ik beschikbaar voor sessies tegen een gereduceerd tarief, onder supervisie van het BodyMind instituut.</p>
+        'nl': `<p>Ha! Mijn naam is Sandra en ik zit in het vierde jaar van de opleiding Integrated Psychotherapy bij BodyMind Opleidingen. Om ervaring op te doen en mijn vaardigheden te oefenen, ben ik beschikbaar voor sessies tegen een gereduceerd tarief, onder supervisie van het BodyMind instituut.</p>
         <ul>
             <li>Heb je last van spanning, piekeren, lichamelijke klachten zonder duidelijke fysieke oorzaak?</li>
             <li>Is het lastig voor je om te voelen?</li>
@@ -72,13 +72,13 @@ export const translations = {
         <p>It has always fascinated me how people think, feel and act, both as individuals and in groups, and also in different cultures. In 2015, I graduated as an anthropologist. I spent a total of one and a half years in Latin America, living among the locals.</p>
         <p>From 2017 to 2020, I followed various longer personal leadership training courses at the Omega School of Life at Centrum Venwoude. Bodywork and emotion work are a central part of their approach.</p>
         <p>My own quest for therapy and bodywork yielded so much that I felt I want to make it my profession. I hope to complete the studies at the BodyMind institute in 2023/2024.</p>
-        <p>I live in Leeuwarden with my Slovenian partner, whose ambitions are also to work as a therapist in the future.</p>`,
+        <p>I live in Leeuwarden with my Slovenian partner.</p>`,
         
         'nl': `<p>Jarenlange onverklaarbare buikklachten waren voor mij de aanleiding om me te verdiepen in de relatie tussen lichaam en geest. Vooral lichaamswerk heeft me leren zien hoe emoties, gedachten en spanningen zich in mijn lijf vastzetten. Inmiddels heb ik geleerd hoe ik daar anders mee om kan gaan. Ik voel mij nu blijer en meer ontspannen.</p>
         <p>Sowieso heeft het me altijd gefascineerd hoe mensen denken, voelen en handelen, zowel als individu als in groepen, en ook in verschillende culturen. In 2015 ben ik afgestudeerd als antropoloog. Ik heb in totaal anderhalf jaar in Latijns-Amerika gespendeerd en leefde daar tussen de lokale bevolking.</p>
         <p>Van 2017 tot 2020 heb ik op Centrum Venwoude diverse langere trainingen persoonlijk leiderschap gevolgd bij de Omega Levensschool. Lichaamswerk en emotiewerk vormen een centraal onderdeel van die benadering van persoonlijk leiderschap.</p>
         <p>Uiteindelijk leverde mijn eigen zoektocht op het gebied van therapie en lichaamswerk me zoveel op dat ik voelde dat ik daar mijn beroep van wilde maken. Ik hoop de opleiding van het BodyMind instituut in 2023/2024 af te ronden.</p>
-        <p>Ik woon in Leeuwarden met mijn Sloveense partner, wiens ambities ook zijn om later als therapeut te werken.</p>`
+        <p>Ik woon in Leeuwarden met mijn Sloveense partner.</p>`
     },
     visionTitle: {
         'en': `My vision`,
