@@ -129,11 +129,11 @@ export const translations = {
     sessionsContent: {
         'en': `<p>Are you stuck in something in your life, your relationships, your body or in yourself? And do you want to know if I can help you take the next step? Until my graduation (2023) I regularly have room for practice clients at a reduced rate. A session costs €45, lasts 60 to 75 minutes and takes place in Leeuwarden (Camminghaburen). The intake session takes about 90 minutes. I give the sessions under the supervision of the BodyMind Institute. A session can be in Dutch, Frisian or English.</p>
         <p>Feel free to call or to send me an email to make an appointment for a telephone introduction or for a question or more information.</p>
-        <p>As a student member I am affiliated with the Foundation for the Professional Organization for Body Oriented (Psycho)therapy (SBLP). The sessions are not yet billable to health insurance companies and at the moment I do not work with people under the age of 21 or people with contraindications.</p>`,
+        <p>As a student member I am affiliated with the Foundation for the Professional Organization for Body Oriented (Psycho)therapy (SBLP). The sessions are not yet billable to health insurance companies, but after my graduation (beginning of 2024) the invoices can be submitted to the supplementary health insurance.</p>`,
         
         'nl': `<p>Loop je ergens tegenaan in je leven, je relaties, je lijf of in jezelf? En wil je weten of ik je kan helpen een volgende stap te zetten? Ik heb tot mijn afstuderen (2023) regelmatig ruimte voor oefen-cliënten tegen gereduceerd tarief. Een sessie kost €45, duurt 60 tot 75 minuten en vindt plaats in Leeuwarden (Camminghaburen). De intake sessie duurt ongeveer 90 minuten. Ik geef de sessies onder supervisie van het opleidingsinstituut. Een sessie kan in het Nederlands, Fries of Engels.</p>
         <p>Bel of mail gerust om een afspraak te maken voor een telefonische kennismaking of voor een vraag of meer informatie.</p>
-        <p>Ik ben als student-lid aangesloten bij de Stichting Beroepsorganisatie voor Lichaamsgeoriënteerde (Psycho)therapie (SBLP). De sessies zijn nog niet declarabel bij de zorgverzekering en op dit moment werk ik niet met mensen jonger dan 21 jaar of mensen met contra-indicaties.</p>`,
+        <p>Ik ben als student-lid aangesloten bij de Stichting Beroepsorganisatie voor Lichaamsgeoriënteerde (Psycho)therapie (SBLP). De sessies zijn nog niet declarabel bij de zorgverzekering, maar na mijn afstuderen (begin 2024) kunnen ze worden ingediend bij de aanvullende zorgverzekering.</p>`,
     },
     madeBy: {
         'en': `Made by`,
