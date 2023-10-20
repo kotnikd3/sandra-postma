@@ -165,7 +165,7 @@
 					</a>
 				</figure>
 				<br>
-				<p class="has-text-grey">Sandra Postma <font-awesome-icon :icon="['far', 'copyright']" flip="horizontal"/> 2022</p>
+				<p class="has-text-grey">Sandra Postma <font-awesome-icon :icon="['far', 'copyright']" flip="horizontal"/> 2023</p>
 				<p style="font-size: x-small;"><i><a class="has-text-grey" href="https://www.kotnik.si" target="_blank"><span v-html="madeBy[language]"></span> Denis Kotnik</a></i></p>
 			</div>
 		</footer>
