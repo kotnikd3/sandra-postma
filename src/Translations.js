@@ -28,7 +28,7 @@ export const translations = {
         'nl': `Lichaamsgerichte psychotherapie`
     },
     homeContent: {
-        'en': `<p>Hi! My name is Sandra and I am in the fifth year, in the last phase, of the study Integrated Psychotherapy at the BodyMind Institute. In order to gain experience and practice my skills, I am available for sessions at a reduced rate, supervised by the BodyMind institute.</p>
+        'en': `<p>Hi! My name is Sandra and I recently graduated (Jan 2024) the study Integrated Psychotherapy at the BodyMind Institute.</p>
         <ul>
             <li>Are you suffering from tension, worrying, physical complaints without a clear physical cause?</li>
             <li>Is it difficult for you to feel your feelings and emotions?</li>
@@ -48,7 +48,7 @@ export const translations = {
             <li>you get more insight in who you are and what is important for you in your life</li>
         </ul>`,
         
-        'nl': `<p>Ha! Mijn naam is Sandra en ik zit in het vijfde jaar, in de laatste fase, van de opleiding Integrated Psychotherapy bij BodyMind Opleidingen. Om ervaring op te doen en mijn vaardigheden te oefenen, ben ik beschikbaar voor sessies tegen een gereduceerd tarief, onder supervisie van het BodyMind instituut.</p>
+        'nl': `<p>Ha! Mijn naam is Sandra en ik ben onlangs afgestudeerd (Jan 2024) van de opleiding Integrated Psychotherapy bij BodyMind Opleidingen.</p>
         <ul>
             <li>Heb je last van spanning, piekeren, lichamelijke klachten zonder duidelijke fysieke oorzaak?</li>
             <li>Is het lastig voor je om te voelen?</li>
@@ -127,13 +127,13 @@ export const translations = {
         'nl': `"Er is geen verandering van duisternis naar licht, van stilstand naar beweging, zonder emotie."<br>–C. G. Jung`,
     },
     sessionsContent: {
-        'en': `<p>Are you stuck in something in your life, your relationships, your body or in yourself? And do you want to know if I can help you take the next step? Until my graduation (2023) I regularly have room for practice clients at a reduced rate. A session costs €45, lasts 60 to 75 minutes and takes place in Leeuwarden (Camminghaburen). The intake session takes about 90 minutes. I give the sessions under the supervision of the BodyMind Institute. A session can be in Dutch, Frisian or English.</p>
+        'en': `<p>Are you stuck in something in your life, your relationships, your body or in yourself? A session costs €50 until I complete all the bureaucratic and administrative procedures that are needed to start the practice as a licensed therapist. The session will then cost €75 and invoices can be submitted to the health insurance if you have an additional insurance for 'Alternatieve geneeswijzen'. The session lasts 60 minutes and takes place in Leeuwarden (Camminghaburen). The intake session usually takes a bit longer. A session can be in Dutch, Frisian or English.</p>
         <p>Feel free to call or to send me an email to make an appointment for a telephone introduction or for a question or more information.</p>
-        <p>As a student member I am affiliated with the Foundation for the Professional Organization for Body Oriented (Psycho)therapy (SBLP). The sessions are not yet billable to health insurance companies, but after my graduation (beginning of 2024) the invoices can be submitted to the supplementary health insurance.</p>`,
+        <p>I am affiliated with the Foundation for the Professional Organization for Body Oriented (Psycho)therapy (SBLP).</p>`,
         
-        'nl': `<p>Loop je ergens tegenaan in je leven, je relaties, je lijf of in jezelf? En wil je weten of ik je kan helpen een volgende stap te zetten? Ik heb tot mijn afstuderen (2023) regelmatig ruimte voor oefen-cliënten tegen gereduceerd tarief. Een sessie kost €45, duurt 60 tot 75 minuten en vindt plaats in Leeuwarden (Camminghaburen). De intake sessie duurt ongeveer 90 minuten. Ik geef de sessies onder supervisie van het opleidingsinstituut. Een sessie kan in het Nederlands, Fries of Engels.</p>
+        'nl': `<p>Loop je ergens tegenaan in je leven, je relaties, je lijf of in jezelf? Een sessie kost €50 totdat ik alle bureaucratische en administratieve zaken heb geregeld omtrend het opzetten van de praktijk als gecertificieerd therapeut. De sessies kosten vanaf dat moment €75 en de rekening kan worden opgestuurd naar de zorgverzekering indien je een aanvullende verzekering hebt waar ' Alternatieve geneeswijzen' onder valt. Een sessie duurt 60 minuten en vindt plaats in Leeuwarden (Camminghaburen). De intake sessie duurt meestal iets langer. Een sessie kan in het Nederlands, Fries of Engels.</p>
         <p>Bel of mail gerust om een afspraak te maken voor een telefonische kennismaking of voor een vraag of meer informatie.</p>
-        <p>Ik ben als student-lid aangesloten bij de Stichting Beroepsorganisatie voor Lichaamsgeoriënteerde (Psycho)therapie (SBLP). De sessies zijn nog niet declarabel bij de zorgverzekering, maar na mijn afstuderen (begin 2024) kunnen ze worden ingediend bij de aanvullende zorgverzekering.</p>`,
+        <p>Ik ben aangesloten bij de Stichting Beroepsorganisatie voor Lichaamsgeoriënteerde (Psycho)therapie (SBLP).</p>`,
     },
     madeBy: {
         'en': `Made by`,
