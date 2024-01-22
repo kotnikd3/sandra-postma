@@ -24,3 +24,9 @@ npm run serve
 ```
 ./build.sh
 ```
+
+## Domain hosting
+>- 2024: https://neoserv.si/
+
+## DNS hosting:
+>- https://www.freedns.si
