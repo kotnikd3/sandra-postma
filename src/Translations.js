@@ -36,7 +36,7 @@ export const translations = {
             <li>Do you lack focus? Do you find it difficult to take the steps you want, or do you not know how?</li>
             <li>Is your relationship with yourself or others uncomfortable? Do you feel out of sync or not in a natural flow with the people around you?</li>
         </ul>
-        <p>Body-oriented psychotherapy offers you a great way into all these questions. You are welcome at my practice Buitengewoon-mens (‘extraordinary-human’), www.buitengewoon-mens.nl.</p>
+        <p>Body-oriented psychotherapy offers you a great way into all these questions. You are welcome at my practice Buitengewoon-mens (‘extraordinary-human’).</p>
         <p>If you are curious and willing to dive into yourself, you can discover what is alive in you, what is in the way to express this, and how you can take steps towards a more fulfilling life.</p>
         <p>Some potential gains:</p>
         <ul>
@@ -56,7 +56,7 @@ export const translations = {
             <li>Mis je focus? Vind je het moeilijk om de stappen te zetten die je wilt of weet je niet hoe?</li>
             <li>Is de relatie met jezelf onprettig of stroomt het niet in contact met de mensen om je heen?</li>
         </ul>
-        <p>Lichaamsgerichte psychotherapie biedt jouw een geweldige ingang tot al deze vragen. Je bent welkom bij mijn praktijk Buitengewoon-mens, www.buitengewoon-mens.nl</p>
+        <p>Lichaamsgerichte psychotherapie biedt jouw een geweldige ingang tot al deze vragen. Je bent welkom bij mijn praktijk Buitengewoon-mens.</p>
         <p>De potentiële winst:</p>
         <ul>
             <li>je voelt je blijer met jezelf</li>
