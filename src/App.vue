@@ -106,7 +106,7 @@
 							</div>
 						</div>
 						<div class="level-item has-text-centered">
-							<a href="./static/document.pdf">
+							<a href="./static/document_sblp.pdf" target="_blank">
 								<div>
 									<span class="icon my-5">
 										<font-awesome-icon :icon="['fas', 'file']" size="2x"/>
@@ -137,13 +137,27 @@
 		</section>
 		<!-- Footer -->
 		<footer class="footer">
-			<div class="container has-text-centered">
-				<figure>
-					<a href="https://sblp.nl/" target="_blank">
-						<img src="./assets/logo.png">
-					</a>
-				</figure>
-				<br>
+			<div class="container">
+				<div class="columns is-mobile is-centered pb-6">
+					<!-- Column -->
+					<div class="column is-narrow">
+						<figure>
+							<a href="https://sblp.nl/" target="_blank">
+								<img id="img_sblp" src="./assets/logo_sblp.png">
+							</a>
+						</figure>
+					</div>
+					<!-- Column -->
+					<div class="column is-narrow">
+						<figure>
+							<a href="https://rbcz.nu/" target="_blank">
+								<img id="img_rbcz" src="./assets/logo_rbcz.png">
+							</a>
+						</figure>
+					</div>
+				</div>
+			</div>
+			<div class="container has-text-centered pt-6">
 				<p class="has-text-grey">Sandra Postma <font-awesome-icon :icon="['far', 'copyright']" flip="horizontal"/> 2024</p>
 				<p style="font-size: x-small;"><i><a class="has-text-grey" href="https://www.kotnik.si" target="_blank"><span v-html="madeBy[language]"></span> Denis Kotnik</a></i></p>
 			</div>
