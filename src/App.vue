@@ -137,8 +137,8 @@
 		</section>
 		<!-- Footer -->
 		<footer class="footer">
-			<div class="container">
-				<div class="columns is-mobile is-centered pb-6">
+			<div class="container pb-6">
+				<div class="columns is-mobile is-centered">
 					<!-- Column -->
 					<div class="column is-narrow">
 						<figure>
