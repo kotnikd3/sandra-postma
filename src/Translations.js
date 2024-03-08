@@ -40,14 +40,22 @@ export const translations = {
         I see every person as unique, and at the same time I see that we all deal with variations of the same human themes. For me, being human is about allowing everything to be there: from sadness, anger and fear to playfulness, happiness and joy. That there is room to make your dreams come true, but that you also develop the resilience to deal with tensions, discomfort and problems, since life does not always go the way we would like.
         <br>
         <br>
-        I see bodywork as an opportunity to give all parts of ourselves a place, so that they can work together for a life that fulfills us.</p>`,        
+        I see bodywork as an opportunity to give all parts of ourselves a place, so that they can work together for a life that fulfills us.
+        <br>
+        <br>
+        I also like to be influenced by psychoanalytic theories and insights because they provide a lot of knowledge about the problems within and between people and therefore form a basis on which much therapeutic work is based.
+        </p>`,        
         'nl': `<p>Jarenlange onverklaarbare buikklachten waren voor mij de aanleiding om me te verdiepen in de relatie tussen lichaam en geest. Vooral lichaamswerk heeft me leren zien hoe emoties, gedachten en spanningen zich in mijn lijf vastzetten. Ik heb manieren geleerd om daar anders mee om te gaan en ik voel mij nu levendiger en meer verbonden. Van 2017 tot 2020 heb ik bij de voormalige Venwoude Levensschool diverse langere trainingen persoonlijk leiderschap gevolgd waarbij lichaamswerk en emotiewerk een centraal onderdeel vormden. Ik heb vervolgens de 4-jarige beroepsopleiding Integrated Psychotherapy bij Bodymind gevolgd. Daarnaast werk ik met plezier en verwondering als ambulant ondersteuner. Ik ben in 2015 afgestudeerd als antropoloog.
         <br>
         <br>
         Ik zie ieder mens als uniek, en zie tegelijkertijd dat we allemaal dealen met varianten van dezelfde menselijke thema’s. Mens zijn gaat er voor mij om dat alles er mag zijn: van verdriet, boosheid en angst tot speelsheid, blijdschap en vreugde. Dat er ruimte is om je dromen waar te maken, maar dat je ook de veerkracht ontwikkelt om met spanningen, ongemak en problemen om te gaan, aangezien het leven niet altijd gaat zoals we zouden willen.
         <br>
         <br>
-        Lichaamswerk zie ik als een mogelijkheid om alle delen van onszelf een plek te geven, zodat die samen kunnen gaan werken voor een leven dat ons vervult.</p>`
+        Lichaamswerk zie ik als een mogelijkheid om alle delen van onszelf een plek te geven, zodat die samen kunnen gaan werken voor een leven dat ons vervult.
+        <br>
+        <br>
+        Daarnaast laat ik mij graag beïnvloeden door psychoanalytische theorieën en inzichten omdat deze veel kennis geven over de problematiek binnen en tussen de mens en daarmee een basis vormt waar veel therapeutisch werk op gefundeerd is. 
+        </p>`
     },
     methodOneSubtitle: {
         'en': `What is body-oriented psychotherapy?`,
