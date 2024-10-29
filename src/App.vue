@@ -87,9 +87,10 @@
 		<!-- Contact -->
 		<section class="section" id="contact">
 			<div class="container">
+                <h4 class="title is-4" v-html="contact[language]"></h4>
 				<section class="section">
-					<nav class="level">
-						<div class="level-item has-text-centered">
+					<nav class="columns">
+						<div class="column has-text-centered">
 							<div>
 								<span class="icon my-5">
 									<font-awesome-icon :icon="['far', 'envelope']" size="2x"/>
@@ -97,7 +98,7 @@
 								<p class="subtitle">praktijk@sandra-postma.nl</p>
 							</div>
 						</div>
-						<div class="level-item has-text-centered">
+						<div class="column has-text-centered">
 							<div>
 								<span class="icon my-5">
 									<font-awesome-icon :icon="['fas', 'map-marker-alt']" size="2x"/>
@@ -105,32 +106,36 @@
 								<p class="subtitle">Leeuwarden</p>
 							</div>
 						</div>
-						<div class="level-item has-text-centered">
-							<a href="./static/document_sblp.pdf" target="_blank">
-								<div>
-									<span class="icon my-5">
-										<font-awesome-icon :icon="['fas', 'file']" size="2x"/>
-									</span>
-									<p class="subtitle">Vergoedingen<br>Zorgverzekeraars<br>2024</p>
-								</div>
-							</a>
-						</div>
-						<div class="level-item has-text-centered">
-							<div>
-								<span class="icon my-5">
-									<font-awesome-icon :icon="['fas', 'qrcode']" size="2x"/>
-								</span>
-								<p class="subtitle">KvK-nummer: 71289232</p>
-							</div>
-						</div>
-						<div class="level-item has-text-centered">
-							<div>
-								<span class="icon my-5">
-									<font-awesome-icon :icon="['fas', 'qrcode']" size="2x"/>
-								</span>
-								<p class="subtitle">SBLP: 06119121</p>
-							</div>
-						</div>
+                        <div class="column has-text-centered">
+                            <a href="./static/document_sblp.pdf" target="_blank">
+                                <div>
+                                    <span class="icon my-5">
+                                        <font-awesome-icon :icon="['fas', 'file']" size="2x"/>
+                                    </span>
+                                    <p class="subtitle">Vergoedingen<br>Zorgverzekeraars<br>2024</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column has-text-centered">
+                            <a href="./static/complaints_nl.pdf" target="_blank">
+                                <div>
+                                    <span class="icon my-5">
+                                        <font-awesome-icon :icon="['fas', 'file']" size="2x"/>
+                                    </span>
+                                    <p class="subtitle">Klachtenregeling</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column has-text-centered">
+                            <a href="./static/complaints_en.pdf" target="_blank">
+                                <div>
+                                    <span class="icon my-5">
+                                        <font-awesome-icon :icon="['fas', 'file']" size="2x"/>
+                                    </span>
+                                    <p class="subtitle">Complaints<br>procedure</p>
+                                </div>
+                            </a>
+                        </div>
 					</nav>
 				</section>
 			</div>
@@ -138,17 +143,26 @@
 		<!-- Footer -->
 		<footer class="footer">
 			<div class="container pb-6">
-				<div class="columns is-mobile is-centered">
+				<div class="columns">
 					<!-- Column -->
-					<div class="column is-narrow">
+					<div class="column has-text-centered">
 						<figure>
 							<a href="https://sblp.nl/" target="_blank">
 								<img id="img_sblp" src="./assets/logo_sblp.png">
 							</a>
 						</figure>
 					</div>
+                    <!-- Column -->
+					<div class="column has-text-centered">
+                        <ul>
+                            <li>KvK-nummer: 71289232</li>
+                            <li>SBLP: 06119121</li>
+                            <li>AGB-code praktijk 90093781</li>
+                            <li>AGB zorgverlener 90117815</li>
+                        </ul>
+					</div>
 					<!-- Column -->
-					<div class="column is-narrow">
+					<div class="column has-text-centered">
 						<figure>
 							<a href="https://rbcz.nu/" target="_blank">
 								<img id="img_rbcz" src="./assets/logo_rbcz.png">
@@ -158,8 +172,8 @@
 				</div>
 			</div>
 			<div class="container has-text-centered pt-6">
-				<p class="has-text-grey">Sandra Postma <font-awesome-icon :icon="['far', 'copyright']" flip="horizontal"/> 2024</p>
-				<p style="font-size: x-small;"><i><a class="has-text-grey" href="https://www.kotnik.si" target="_blank"><span v-html="madeBy[language]"></span> Denis Kotnik</a></i></p>
+				<p class="has-text-grey">Sandra Postma <font-awesome-icon :icon="['far', 'copyright']"/> 2025</p>
+				<p style="font-size: x-small;"><i><a class="has-text-grey" href="https://www.kotnik.si" target="_blank"><span v-html="madeBy[language]"></span> kotnik.si</a></i></p>
 			</div>
 		</footer>
 	</div>

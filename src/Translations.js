@@ -16,8 +16,8 @@ export const translations = {
         'nl': `Tarieven`
     },
     contact: {
-        'en': `Contact`,
-        'nl': `Contact`
+        'en': `Contact and documents`,
+        'nl': `Contact en documenten`
     },
     homeTitle: {
         'en': `Therapy Sandra Postma`,
@@ -28,10 +28,9 @@ export const translations = {
         'nl': `Lichaamsgerichte psychotherapie`
     },
     homeContent: {
-        'en': `<p>Welcome to this place for body-oriented psychotherapy. My name is Sandra, I have been studying body-oriented work since 2017, I graduated from the Bodymind Institute in early 2024 and I have been giving sessions for two years.</p>`,
+        'en': `<p>Welcome to this place for body-oriented psychotherapy. My name is Sandra, I have been studying body-oriented work since 2017, I graduated from the Bodymind Institute in early 2024 and I have been giving sessions for three years.</p>`,
         
-        'nl': `<p>Welkom op deze plek voor lichaamsgerichte psychotherapie. Mijn naam is Sandra, ik heb mij sinds 2017 verdiept in lichaamsgericht werken, ik ben begin 2024 afgestudeerd bij Bodymind Opleidingen en ik geef sinds twee jaar sessies.</p>
-        `
+        'nl': `<p>Welkom op deze plek voor lichaamsgerichte psychotherapie. Mijn naam is Sandra, ik heb mij sinds 2017 verdiept in lichaamsgericht werken, ik ben begin 2024 afgestudeerd bij Bodymind Opleidingen en ik geef sinds drie jaar sessies.</p>`
     },
     aboutContent: {
         'en': `<p>Years of unexplained stomach complaints were the reason for me to delve deeper into the relationship between body and mind. Bodywork in particular has taught me to see how emotions, thoughts and tensions get stuck in my body. I have learned ways to deal with this differently and I now feel more alive and connected. From 2017 to 2020, I attended various longer personal leadership training courses at the former Venwoude Levensschool in which body work and emotion work formed a central part. I then followed the 4-year Integrated Psychotherapy study at Bodymind Institute. I also work with pleasure and amazement as an outpatient support worker. I graduated as an anthropologist in 2015.
@@ -152,13 +151,13 @@ export const translations = {
     sessionsContent: {
         'en': `<p>Are you stuck in something in your life, your relationships, your body or in yourself? And do you want to know if I can help you take the next step?
         <br>
-        Feel free to send me an email to make an appointment for an introduction, for a question or more information. The practice is at home, in Leeuwarden.
+        Feel free to send me an email to <b>praktijk@sandra-postma.nl</b> to make an appointment for an introduction, for a question or more information. The practice is at home, in Leeuwarden.
         </p>`,
         
         'nl': `<p>Loop je ergens tegenaan in je leven, je relaties, je lijf of in jezelf? En wil je weten of ik je kan helpen een volgende stap te zetten?
         <br>
         <br>
-        Mail gerust om een afspraak te maken voor een kennismaking of vraag naar meer informatie. Sessies worden in het Fries, Nederlands of Engels gegeven. De praktijk is aan huis in Leeuwarden. Sessies worden deels vergoed vanuit de aanvullende zorgverzekering. Onder aan de pagina zie je een document waar je per verzekering kan kijken wat de vergoedingen zijn.
+        Mail gerust naar <b>praktijk@sandra-postma.nl</b> om een afspraak te maken voor een kennismaking of vraag naar meer informatie. Sessies worden in het Fries, Nederlands of Engels gegeven. De praktijk is aan huis in Leeuwarden. Sessies worden deels vergoed vanuit de aanvullende zorgverzekering. Onder aan de pagina zie je een document waar je per verzekering kan kijken wat de vergoedingen zijn.
         </p>`,
     },
     costsContent: {
@@ -173,8 +172,7 @@ export const translations = {
         <ul>
             <li>Kennismaking 30 min via (beeld) bellen of live – <b>Gratis</b></li>
             <li>Sessie 60 min – <b>75 €</b></li>
-        </ul>
-        <i>Wil je graag therapie en is je financiële draagkracht beperkt? Neem dan contact met me op om samen te kijken naar wat er mogelijk is.</i>`,
+        </ul>`,
     },
     madeBy: {
         'en': `Made by`,
