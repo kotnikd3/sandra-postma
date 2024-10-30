@@ -138,6 +138,7 @@
                         </div>
 					</nav>
 				</section>
+                <hr class="line">
 			</div>
 		</section>
 		<!-- Footer -->
