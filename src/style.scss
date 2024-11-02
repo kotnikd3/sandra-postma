@@ -21,6 +21,11 @@ $color-green: rgb(51, 183, 124);
 
 // Elements
 @use "bulma/sass/elements/title";
+@use "bulma/sass/elements/button" with(
+    $button-ghost-background: $color-green,
+    $button-ghost-color: white,
+    $button-ghost-hover-color: white,
+);
 @use "bulma/sass/elements/icon";
 @use "bulma/sass/elements/content";
 
@@ -30,9 +35,7 @@ $color-green: rgb(51, 183, 124);
 // Components
 @use "bulma/sass/components/tabs" with(
     $tabs-link-active-color: $color-green,
-    $tabs-link-active-border-bottom-color: $color-green,
     $tabs-link-hover-color: $color-green,
-    $tabs-link-hover-border-bottom-color: $color-green,
 );
 
 // Helpers
@@ -64,6 +67,10 @@ $color-green: rgb(51, 183, 124);
 ///////////////////////////////////////
 // Custom CSS
 ///////////////////////////////////////
+html {
+    scroll-behavior: smooth;
+}
+
 footer figure img#img_sblp {
     width: 300px;
 }
@@ -85,7 +92,7 @@ footer figure img#img_rbcz {
     color: $color-green;
 }
 
-.tabs.is-toggle {
+.buttons {
     padding-right: 5%;
 }
 

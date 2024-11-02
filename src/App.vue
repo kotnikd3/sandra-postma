@@ -3,19 +3,17 @@
 		<!-- Tabs: navbar -->
 		<div class="tabs is-right is-fixed-top" id="home">
 			<ul>
-				<li class="is-active" @click="scrollTo('home')"><a v-html="home[language]"></a></li>
-				<li @click="scrollTo('about')"><a v-html="about[language]"></a></li>
-				<li @click="scrollTo('sessions')"><a v-html="sessions[language]"></a></li>
-				<li @click="scrollTo('contact')"><a v-html="contact[language]"></a></li>
+				<li class="is-active"><a v-html="home[language]" href="#home"></a></li>
+				<li><a v-html="about[language]" href="#about"></a></li>
+				<li><a v-html="sessions[language]" href="#sessions"></a></li>
+				<li><a v-html="contact[language]" href="#contact"></a></li>
 			</ul>
 		</div>
 		<!-- Tabs: language buttons -->
-		<div class="tabs is-right is-toggle">
-			<ul>
-				<li @click="toggleClass('nl')" :class="[{ 'is-active' : language == 'nl' }]"><a>NL</a></li>
-				<li @click="toggleClass('en')" :class="[{ 'is-active' : language == 'en' }]"><a>EN</a></li>
-			</ul>
-		</div>
+		<div class="buttons has-addons is-right">
+            <button @click="toggleClass('nl')" :class="['button', { 'is-ghost': language === 'nl' }]">NL</button>
+            <button @click="toggleClass('en')" :class="['button', { 'is-ghost': language === 'en' }]">EN</button>
+        </div>
 		<!-- Home -->
 		<section class="section">
 			<div class="container">
@@ -30,7 +28,7 @@
 				 	</div>
 					<!-- Column -->
 				 	<div class="column has-text-centered">
-						<img class="img-main" src="./assets/river.jpg" alt="Sandra Postma">
+						<img class="img-main" src="./assets/river.webp" alt="Sandra_Postma_river">
 					</div>
 				</div>
 			</div>
@@ -41,7 +39,7 @@
 				<div class="columns is-vcentered reverse-columns">
 					<!-- Column -->
 				 	<div class="column has-text-centered">
-						<img class="img-main" src="./assets/mist.jpg" alt="Sandra Postma">
+						<img class="img-main" src="./assets/mist.webp" alt="Sandra_Postma_must">
 					</div>
 					<!-- Column -->
 					<div class="column">
@@ -64,7 +62,7 @@
 				 	</div>
 					<!-- Column -->
 				 	<div class="column has-text-centered">
-						<img class="img-main" src="./assets/sandra.jpg" alt="Sandra Postma">
+						<img class="img-main" src="./assets/sandra.webp" alt="Sandra_Postma">
 					</div>
 				</div>
 			</div>
@@ -149,7 +147,7 @@
 					<div class="column has-text-centered">
 						<figure>
 							<a href="https://sblp.nl/" target="_blank">
-								<img id="img_sblp" src="./assets/logo_sblp.png">
+								<img id="img_sblp" src="./assets/logo_sblp.webp" alt="Sandra_Postma_sblp">
 							</a>
 						</figure>
 					</div>
@@ -166,7 +164,7 @@
 					<div class="column has-text-centered">
 						<figure>
 							<a href="https://rbcz.nu/" target="_blank">
-								<img id="img_rbcz" src="./assets/logo_rbcz.png">
+								<img id="img_rbcz" src="./assets/logo_rbcz.webp" alt="Sandra_Postma_rbcz">
 							</a>
 						</figure>
 					</div>
@@ -195,11 +193,6 @@ export default {
 		toggleClass(_language) {
 			this.language = _language;
 		},
-		scrollTo(id) {
-			document.getElementById(id).scrollIntoView({
-				behavior: "smooth"
-			});
-		}
 	}
 }
 </script>
