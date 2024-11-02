@@ -1,23 +1,31 @@
-# sandra-postma
+# www.sandra-postma.nl
 
-This template should help get you started developing with Vue 3 in Vite.
+## Update node on MacOS
+```sh
+brew update
+```
 
-## Recommended IDE Setup
+## Update npm
+```sh
+npm install -g npm@latest
+```
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Update packages
+```sh
+# Check for updates
+ncu
+# Update packages by modifying package.json
+ncu -u
+# Install new packages
+npm install
+```
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
+## Project setup
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
+### Compiles and hot-reloads for development
 ```sh
 npm run dev
 ```
@@ -28,8 +36,19 @@ npm run dev
 npm run build
 ```
 
+### Deploy
+```sh
+npm run deploy
+```
+
 ### Lint with [ESLint](https://eslint.org/)
 
 ```sh
 npm run lint
 ```
+
+## Domain hosting
+>- 2024: https://neoserv.si/
+
+## DNS hosting:
+>- https://www.freedns.si

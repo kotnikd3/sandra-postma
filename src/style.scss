@@ -51,6 +51,17 @@ $color-green: rgb(51, 183, 124);
 
 
 ///////////////////////////////////////
+// Google fonts
+///////////////////////////////////////
+@font-face {
+    font-family: 'Varela Round';
+    src: url('./fonts/VarelaRound-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+///////////////////////////////////////
 // Custom CSS
 ///////////////////////////////////////
 footer figure img#img_sblp {
@@ -87,16 +98,6 @@ footer figure img#img_rbcz {
 
 .is-active {
     color: white;
-}
-
-///////////////////////////////////////
-// Google fonts
-///////////////////////////////////////
-@font-face {
-    font-family: 'Varela Round';
-    src: url('./fonts/VarelaRound-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
 }
 
 body {
