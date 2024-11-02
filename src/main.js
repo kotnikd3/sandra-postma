@@ -1,16 +1,15 @@
+import '@/style.scss'
+
+// FontAwesome
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { faCopyright, faEnvelope, faFile } from '@fortawesome/free-regular-svg-icons'
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faCopyright, faEnvelope, faLocationDot, faFile)
+
 import { createApp } from 'vue'
 import App from './App.vue'
 
-// Fontawesome
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faGithub, faGoodreads } from '@fortawesome/free-brands-svg-icons'
-import { faCopyright, faEnvelope } from '@fortawesome/free-regular-svg-icons'
-import { faMobileAlt, faMapMarkerAlt, faQrcode, faFile } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app')
 
-library.add(faGithub, faGoodreads, faCopyright, faMobileAlt, faMapMarkerAlt, faEnvelope, faQrcode, faFile)
-
-// Custom CSS
-require('./mystyles.scss');
-
-createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#body-vue')

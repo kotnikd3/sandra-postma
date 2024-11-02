@@ -1,0 +1,105 @@
+///////////////////////////////////////
+// Bulma
+///////////////////////////////////////
+
+
+// Load everything
+// @use 'bulma/css/bulma.css';
+
+// Set your brand colors
+$color-light-green: rgb(247, 252, 250);
+$color-green: rgb(51, 183, 124);
+
+// Override global Sass variables from the /utilities folder
+@use "bulma/sass/utilities" with(
+    $link: $color-green,
+);
+
+// Load Bulma's base styles and themes (including the minireset)
+@use "bulma/sass/base";
+@use "bulma/sass/themes";
+
+// Elements
+@use "bulma/sass/elements/title";
+@use "bulma/sass/elements/icon";
+@use "bulma/sass/elements/content";
+
+// Grid
+@use "bulma/sass/grid/columns";
+
+// Components
+@use "bulma/sass/components/tabs" with(
+    $tabs-link-active-color: $color-green,
+    $tabs-link-active-border-bottom-color: $color-green,
+    $tabs-link-hover-color: $color-green,
+    $tabs-link-hover-border-bottom-color: $color-green,
+);
+
+// Helpers
+@use "bulma/sass/helpers/color";
+@use "bulma/sass/helpers/flexbox";
+@use "bulma/sass/helpers/spacing";
+@use "bulma/sass/helpers/typography";
+
+// Layout
+@use "bulma/sass/layout/section";
+@use "bulma/sass/layout/footer" with (
+    $footer-background-color: $color-light-green,
+    $footer-padding: 32px,
+);
+@use "bulma/sass/layout/container";
+
+
+///////////////////////////////////////
+// Custom CSS
+///////////////////////////////////////
+footer figure img#img_sblp {
+    width: 300px;
+}
+
+footer figure img#img_rbcz {
+    width: 200px;
+}
+
+.line {
+    border-top: 1px solid #dee2e6;
+}
+
+.img-main {
+    width: 80%;
+    border-radius: 5%;
+}
+
+.has-text-green {
+    color: $color-green;
+}
+
+.tabs.is-toggle {
+    padding-right: 5%;
+}
+
+@media(max-width: 767px) {
+    .reverse-columns {
+        flex-direction: column-reverse;
+        display: flex;
+    }
+}
+
+.is-active {
+    color: white;
+}
+
+///////////////////////////////////////
+// Google fonts
+///////////////////////////////////////
+@font-face {
+    font-family: 'Varela Round';
+    src: url('./fonts/VarelaRound-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    background-color: $color-light-green;
+}

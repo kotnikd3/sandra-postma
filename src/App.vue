@@ -93,7 +93,7 @@
 						<div class="column has-text-centered">
 							<div>
 								<span class="icon my-5">
-									<font-awesome-icon :icon="['far', 'envelope']" size="2x"/>
+                                    <font-awesome-icon icon="fa-regular fa-envelope" size="2x"/>
 								</span>
 								<p class="subtitle">praktijk@sandra-postma.nl</p>
 							</div>
@@ -101,7 +101,7 @@
 						<div class="column has-text-centered">
 							<div>
 								<span class="icon my-5">
-									<font-awesome-icon :icon="['fas', 'map-marker-alt']" size="2x"/>
+                                    <font-awesome-icon icon="fa-solid fa-location-dot" size="2x"/>
 								</span>
 								<p class="subtitle">Leeuwarden</p>
 							</div>
@@ -110,7 +110,7 @@
                             <a href="./static/document_sblp.pdf" target="_blank">
                                 <div>
                                     <span class="icon my-5">
-                                        <font-awesome-icon :icon="['fas', 'file']" size="2x"/>
+                                        <font-awesome-icon icon="fa-regular fa-file" size="2x"/>
                                     </span>
                                     <p class="subtitle">Vergoedingen<br>Zorgverzekeraars<br>2024</p>
                                 </div>
@@ -120,7 +120,7 @@
                             <a href="./static/complaints_nl.pdf" target="_blank">
                                 <div>
                                     <span class="icon my-5">
-                                        <font-awesome-icon :icon="['fas', 'file']" size="2x"/>
+                                        <font-awesome-icon icon="fa-regular fa-file" size="2x"/>
                                     </span>
                                     <p class="subtitle">Klachtenregeling</p>
                                 </div>
@@ -130,7 +130,7 @@
                             <a href="./static/complaints_en.pdf" target="_blank">
                                 <div>
                                     <span class="icon my-5">
-                                        <font-awesome-icon :icon="['fas', 'file']" size="2x"/>
+                                        <font-awesome-icon icon="fa-regular fa-file" size="2x"/>
                                     </span>
                                     <p class="subtitle">Complaints<br>procedure</p>
                                 </div>
@@ -173,7 +173,7 @@
 				</div>
 			</div>
 			<div class="container has-text-centered pt-6">
-				<p class="has-text-grey">Sandra Postma <font-awesome-icon :icon="['far', 'copyright']"/> 2025</p>
+				<p class="has-text-grey">Sandra Postma <font-awesome-icon icon="fa-regular fa-copyright" /> 2025</p>
 				<p style="font-size: x-small;"><i><a class="has-text-grey" href="https://www.kotnik.si" target="_blank"><span v-html="madeBy[language]"></span> kotnik.si</a></i></p>
 			</div>
 		</footer>
