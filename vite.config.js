@@ -6,7 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-    base: "/sandra-postma/",
+    base: "/kotnikd3.github.io/",
     plugins: [
         vue(),
         vueDevTools(),
