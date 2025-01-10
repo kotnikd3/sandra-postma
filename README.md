@@ -49,6 +49,5 @@ npm run lint
 
 ## Domain hosting
 >- 2024: https://neoserv.si/
+>- 2025: neoserv -> domovanje
 
-## DNS hosting:
->- https://www.freedns.si
