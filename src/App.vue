@@ -101,16 +101,16 @@
 								<span class="icon my-5">
                                     <font-awesome-icon icon="fa-solid fa-location-dot" size="2x"/>
 								</span>
-								<p class="subtitle">Leeuwarden</p>
+								<p class="subtitle">Aggemastate 224<br>8926 PH Leeuwarden</p>
 							</div>
 						</div>
                         <div class="column has-text-centered">
-                            <a href="./static/document_sblp.pdf" target="_blank">
+                            <a href="./static/document_vergoedingen_2025.pdf" target="_blank">
                                 <div>
                                     <span class="icon my-5">
                                         <font-awesome-icon icon="fa-regular fa-file" size="2x"/>
                                     </span>
-                                    <p class="subtitle">Vergoedingen<br>Zorgverzekeraars<br>2024</p>
+                                    <p class="subtitle">Vergoedingen<br>Zorgverzekeraars<br>2025</p>
                                 </div>
                             </a>
                         </div>
