@@ -36,18 +36,14 @@ npm run dev
 npm run build
 ```
 
-### Deploy
-```sh
-npm run deploy
-```
-
 ### Lint with [ESLint](https://eslint.org/)
 
 ```sh
 npm run lint
 ```
 
-## Domain hosting
->- 2024: https://neoserv.si/
->- 2025: neoserv -> domovanje
-
+## Hosting
+- **Domain registrar**: Domovanje (where the domain is registered)
+- **Email hosting provider**: Neoserv (where email services are hosted)
+- **DNS provider**: Cloudflare (handles DNS records and routing)
+- **Static website hosting provider**: Cloudflare Pages (hosts the static website)

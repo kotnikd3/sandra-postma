@@ -1,6 +1,6 @@
 {
   "name": "sandra-postma",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Sandra Postma's website",
   "author": "Denis Kotnik",
   "license": "copyleft",
@@ -8,7 +8,7 @@
     "type": "git",
     "url": "git+https://github.com/kotnikd3/sandra-postma.git"
   },
-  "homepage": "https://kotnikd3.github.io/sandra-postma/",
+  "homepage": "https://sandra-postma.nl/",
   "keywords": [
     "website",
     "personal",
@@ -20,7 +20,6 @@
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "vite build && cp CNAME dist/CNAME && gh-pages -d dist",
     "preview": "vite preview",
     "lint": "eslint . --fix",
     "format": "prettier --write src/"
@@ -40,7 +39,6 @@
     "@vue/eslint-config-prettier": "^10.2.0",
     "eslint": "^9.22.0",
     "eslint-plugin-vue": "^9.32.0",
-    "gh-pages": "^6.3.0",
     "prettier": "^3.5.3",
     "sass": "^1.85.1",
     "sass-loader": "^16.0.5",
