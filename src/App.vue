@@ -3,16 +3,16 @@
 		<!-- Tabs: navbar -->
 		<div class="tabs is-right is-fixed-top" id="home">
 			<ul>
-				<li class="is-active"><a v-html="home[language]" href="#home"></a></li>
-				<li><a v-html="about[language]" href="#about"></a></li>
-				<li><a v-html="sessions[language]" href="#sessions"></a></li>
-				<li><a v-html="contact[language]" href="#contact"></a></li>
+				<li class="is-active"><a v-html="t('home')" href="#home"></a></li>
+				<li><a v-text="t('about')" href="#about"></a></li>
+				<li><a v-text="t('sessions')" href="#sessions"></a></li>
+				<li><a v-text="t('contact')" href="#contact"></a></li>
 			</ul>
 		</div>
 		<!-- Tabs: language buttons -->
 		<div class="buttons has-addons is-right">
-            <button @click="toggleClass('nl')" :class="['button', { 'is-ghost': language === 'nl' }]">NL</button>
-            <button @click="toggleClass('en')" :class="['button', { 'is-ghost': language === 'en' }]">EN</button>
+            <button @click="selectedLang = 'nl'" :class="['button', { 'is-ghost': selectedLang === 'nl' }]">NL</button>
+            <button @click="selectedLang = 'en'" :class="['button', { 'is-ghost': selectedLang === 'en' }]">EN</button>
         </div>
 		<!-- Home -->
 		<section class="section">
@@ -20,11 +20,11 @@
 				<div class="columns is-vcentered">
 					<!-- Column -->
 					<div class="column">
-						<h1 class="title" v-html="homeTitle[language]"></h1>
-						<h2 class="subtitle has-text-weight-bold" v-html="homeSubtitle[language]"></h2>
-						<div class="content" v-html="homeContent[language]"></div>
-						<h2 class="subtitle has-text-weight-bold" v-html="methodOneSubtitle[language]"></h2>
-						<div class="content" v-html="methodOneContent[language]"></div>
+						<h1 class="title" v-text="t('homeTitle')"></h1>
+						<h2 class="subtitle has-text-weight-bold" v-text="t('homeSubtitle')"></h2>
+						<div class="content" v-html="t('homeContent')"></div>
+						<h2 class="subtitle has-text-weight-bold" v-html="t('methodOneSubtitle')"></h2>
+						<div class="content" v-html="t('methodOneContent')"></div>
 				 	</div>
 					<!-- Column -->
 				 	<div class="column has-text-centered">
@@ -43,10 +43,10 @@
 					</div>
 					<!-- Column -->
 					<div class="column">
-						<h2 class="subtitle has-text-weight-bold" v-html="methodTwoSubtitle[language]"></h2>
-						<div class="content" v-html="methodTwoContent[language]"></div>
-						<h2 class="subtitle has-text-weight-bold" v-html="methodThreeSubtitle[language]"></h2>
-						<div class="content" v-html="methodThreeContent[language]"></div>
+						<h2 class="subtitle has-text-weight-bold" v-html="t('methodTwoSubtitle')"></h2>
+						<div class="content" v-html="t('methodTwoContent')"></div>
+						<h2 class="subtitle has-text-weight-bold" v-html="t('methodThreeSubtitle')"></h2>
+						<div class="content" v-html="t('methodThreeContent')"></div>
 				 	</div>
 				</div>
 			</div>
@@ -57,8 +57,8 @@
 				<div class="columns is-vcentered">
 					<!-- Column -->
 					<div class="column">
-						<h4 class="title is-4" v-html="about[language]"></h4>
-						<div class="content" v-html="aboutContent[language]"></div>
+						<h4 class="title is-4" v-html="t('about')"></h4>
+						<div class="content" v-html="t('aboutContent')"></div>
 				 	</div>
 					<!-- Column -->
 				 	<div class="column has-text-centered">
@@ -70,22 +70,22 @@
 		<!-- Quote -->
 		<section class="section">
 			<div class="container is-size-3 has-text-centered">
-				<div class="content has-text-green is-size-4 is-italic" v-html="quoteSmall[language]"></div>
+				<div class="content has-text-green is-size-4 is-italic" v-html="t('quoteSmall')"></div>
 			</div>
 		</section>
 		<!-- Sessions -->
 		<section class="section" id="sessions">
 			<div class="container">
-				<h4 class="title is-4" v-html="sessions[language]"></h4>
-				<div class="content" v-html="sessionsContent[language]"></div>
-				<h2 class="subtitle has-text-weight-bold" v-html="costs[language]"></h2>
-				<div class="content" v-html="costsContent[language]"></div>
+				<h4 class="title is-4" v-html="t('sessions')"></h4>
+				<div class="content" v-html="t('sessionsContent', {email: 'praktijk@sandra-postma.nl'})"></div>
+				<h2 class="subtitle has-text-weight-bold" v-html="t('costs')"></h2>
+				<div class="content" v-html="t('costsContent')"></div>
 			</div>
 		</section>
 		<!-- Contact -->
 		<section class="section" id="contact">
 			<div class="container">
-                <h4 class="title is-4" v-html="contact[language]"></h4>
+                <h4 class="title is-4" v-html="t('contact')"></h4>
 				<section class="section">
 					<nav class="columns">
 						<div class="column has-text-centered">
@@ -172,27 +172,30 @@
 			</div>
 			<div class="container has-text-centered pt-6">
 				<p class="has-text-grey">Sandra Postma <font-awesome-icon icon="fa-regular fa-copyright" /> 2025</p>
-				<p style="font-size: x-small;"><i><a class="has-text-grey" href="https://www.kotnik.si" target="_blank"><span v-html="madeBy[language]"></span> kotnik.si</a></i></p>
+				<p style="font-size: x-small;"><i><a class="has-text-grey" href="https://www.kotnik.si" target="_blank"><span v-html="t('madeBy')"></span> kotnik.si</a></i></p>
 			</div>
 		</footer>
 	</div>
 </template>
 
 <script>
-import { translations } from './Translations.js';
+import { useI18n } from 'vue-i18n';
 
 export default {
   	name: 'App',
-	data() {
-		// Merge two dictionaries: Object.assign({}, a, b);
-		return Object.assign({}, translations, {
-			language: 'nl'
-		});
-	},
-	methods: {
-		toggleClass(_language) {
-			this.language = _language;
-		},
-	}
+    setup() {
+        const { t, locale } = useI18n()
+        return { t, locale }
+    },
+    computed: {
+        selectedLang: {
+            get() {
+                return this.locale;
+            },
+            set(lang) {
+                this.locale = lang;
+            }
+        }
+    }
 }
 </script>
