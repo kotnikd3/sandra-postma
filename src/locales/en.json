@@ -3,6 +3,7 @@
     "about": "About me",
     "sessions": "Sessions",
     "costs": "Prices",
+    "complaints": "Complaints procedure",
     "contact": "Contact and documents",
     "homeTitle": "Therapy Sandra Postma",
     "homeSubtitle": "Body-oriented psychotherapy",
@@ -14,8 +15,9 @@
     "methodTwoSubtitle": "Body-oriented psychotherapy can help if you:",
     "methodThreeContent": "<ul><li>happier with yourself</li><li>more fulfilled</li><li>more energetic</li><li>more relaxed</li><li>that you experience more freedom of choice</li><li>more creative and that you experience more fun</li><li>insight and purpose into who you are and what you find important in life</li><li>that relationships improve and deepen</li></ul>",
     "methodThreeSubtitle": "By attending sessions you feel possible:",
-    "quoteSmall": "There is no change from darkness to light or from inertia to movement without emotion.<br>–C. G. Jung",
+    "quoteSmall": "\"There is no change from darkness to light or from inertia to movement without emotion.\"<br>–C. G. Jung",
     "sessionsContent": "<p>Are you stuck in something in your life, your relationships, your body or in yourself? And do you want to know if I can help you take the next step?<br>Feel free to send me an email to <b>{email}</b> to make an appointment for an introduction, for a question or more information. The practice is at home, in Leeuwarden.<br><br>The practice is at home, in Leeuwarden at the Aggemastate 224. You can park for free on the street and there are two bus stops within approximately 10 minutes' walk.</p>",
-    "costsContent": "<ul><li>Introductory meeting 30 min via (video) call or live – <b>Free</b></li><li>Session 60 min – <b>75</b> €</li></ul><i>Sessions can be, depending on your health insurance, partly reimbursed by the supplementary insurance. Below this page you find a document where you can check the reimbursements per health insurance.</i>",
+    "costsContent": "<ul><li>Introductory meeting 30 minutes via (video) call or live – <b>Free</b></li><li>Session 60–75 minutes – <b>80</b> €</li></ul><i>Sessions can be, depending on your health insurance, partly reimbursed by the supplementary insurance. Below this page you find a document where you can check the reimbursements per health insurance.</i>",
+    "complaintsContent": "The VIT has a complaints procedure. If you are not satisfied, you can find all the options <a href=\"{url_1}\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>. I am affiliated with WKKGZ Dispute Settlement <a href=\"{url_2}\" target=\"_blank\" rel=\"noopener noreferrer\">SCAG</a> in accordance with the legal obligation. If the complaints procedure is not (anymore) sufficient, an appeal can be made to the disciplinary law TZC.",
     "madeBy": "Made by"
 }

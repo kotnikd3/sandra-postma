@@ -80,6 +80,8 @@
 				<div class="content" v-html="t('sessionsContent', {email: 'praktijk@sandra-postma.nl'})"></div>
 				<h2 class="subtitle has-text-weight-bold" v-html="t('costs')"></h2>
 				<div class="content" v-html="t('costsContent')"></div>
+                <h2 class="subtitle has-text-weight-bold" v-html="t('complaints')"></h2>
+				<div class="content" v-html="t('complaintsContent', {url_1: 'https://www.vit-therapeuten.nl/cli%C3%ABnten/niet-tevreden', url_2: 'https://www.scag.nl/'})"></div>
 			</div>
 		</section>
 		<!-- Contact -->
@@ -114,26 +116,6 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="column has-text-centered">
-                            <a href="./static/complaints_nl.pdf" target="_blank">
-                                <div>
-                                    <span class="icon my-5">
-                                        <font-awesome-icon icon="fa-regular fa-file" size="2x"/>
-                                    </span>
-                                    <p class="subtitle">Klachtenregeling</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="column has-text-centered">
-                            <a href="./static/complaints_en.pdf" target="_blank">
-                                <div>
-                                    <span class="icon my-5">
-                                        <font-awesome-icon icon="fa-regular fa-file" size="2x"/>
-                                    </span>
-                                    <p class="subtitle">Complaints<br>procedure</p>
-                                </div>
-                            </a>
-                        </div>
 					</nav>
 				</section>
                 <hr class="line">
@@ -146,8 +128,8 @@
 					<!-- Column -->
 					<div class="column has-text-centered">
 						<figure>
-							<a href="https://sblp.nl/" target="_blank">
-								<img id="img_sblp" src="./assets/logo_sblp.webp" alt="Sandra_Postma_sblp">
+							<a href="https://www.vit-therapeuten.nl/" target="_blank">
+								<img id="logo_vit" src="./assets/logo_vit.webp" alt="Sandra_Postma_vit">
 							</a>
 						</figure>
 					</div>
@@ -155,7 +137,6 @@
 					<div class="column has-text-centered">
                         <ul>
                             <li>KvK-nummer: 71289232</li>
-                            <li>SBLP: 06119121</li>
                             <li>AGB-code praktijk 90093781</li>
                             <li>AGB zorgverlener 90117815</li>
                         </ul>

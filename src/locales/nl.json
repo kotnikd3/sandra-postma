@@ -3,6 +3,7 @@
     "about": "Over mij",
     "sessions": "Sessies",
     "costs": "Tarieven",
+    "complaints": "Klachtenregeling",
     "contact": "Contact en documenten",
     "homeTitle": "Praktijk Sandra Postma",
     "homeSubtitle": "Lichaamsgerichte psychotherapie",
@@ -14,8 +15,9 @@
     "methodTwoSubtitle": "Lichaamsgerichte psychotherapie kan o.a. helpen als je:",
     "methodThreeContent": "<ul><li>blijer met jezelf</li><li>meer vervult</li><li>energieker</li><li>meer ontspannen</li><li>dat je meer keuzevrijheid ervaart</li><li>creatiever en dat je meer plezier ervaart</li><li>zicht en doel op wie jij bent en wat je belangrijk vindt in het leven</li><li>dat relaties verbeteren en verdiepen</li></ul>",
     "methodThreeSubtitle": "Door sessies te volgen voel jij je mogelijk:",
-    "quoteSmall": "Er is geen verandering van duisternis naar licht, van stilstand naar beweging, zonder emotie.<br>–C. G. Jung",
+    "quoteSmall": "\"Er is geen verandering van duisternis naar licht, van stilstand naar beweging, zonder emotie.\"<br>–C. G. Jung",
     "sessionsContent": "<p>Loop je ergens tegenaan in je leven, je relaties, je lijf of in jezelf? En wil je weten of ik je kan helpen een volgende stap te zetten?<br><br>Mail gerust naar <b>{email}</b> om een afspraak te maken voor een kennismaking of vraag naar meer informatie. Sessies worden in het Fries, Nederlands of Engels gegeven. De praktijk is aan huis in Leeuwarden. Sessies worden deels vergoed vanuit de aanvullende zorgverzekering. Onder aan de pagina zie je een document waar je per verzekering kan kijken wat de vergoedingen zijn.<br><br>De praktijk is aan huis in Leeuwarden op de Aggemastate 224. In de straat kan je gratis parkeren en er zijn twee bushaltes op ca. 10 minuten lopen.</p>",
-    "costsContent": "<ul><li>Kennismaking 30 min via (beeld) bellen of live – <b>Gratis</b></li><li>Sessie 60 min – <b>75 €</b></li></ul>",
+    "costsContent": "<ul><li>Kennismaking 30 minuten via (beeld) bellen of live – <b>Gratis</b></li><li>Sessie 60–75 minuten – <b>80 €</b></li></ul>",
+    "complaintsContent": "De VIT kent een klachtenregeling. Wanneer je niet te vreden bent vind je <a href=\"{url_1}\" target=\"_blank\" rel=\"noopener noreferrer\">hier</a> alle mogelijkheden. Ik ben volgens de wettelijke verplichting aangesloten bij WKKGZ Geschillenregeling <a href=\"{url_2}\" target=\"_blank\" rel=\"noopener noreferrer\">SCAG</a>. Wanneer de klachtenregeling niet (meer) volstaat, kan een beroep gedaan worden op het tuchtrecht TZC.",
     "madeBy": "Gemaakt door"
 }
