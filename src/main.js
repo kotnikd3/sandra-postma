@@ -1,4 +1,4 @@
-import '@/style.scss'
+import '@/assets/style.scss'
 
 // FontAwesome
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -9,8 +9,8 @@ import { faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons'
 library.add(faCopyright, faEnvelope, faLocationDot, faFile, faPhone)
 
 import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
+import App from '@/App.vue'
+import router from '@/router'
 
 import i18n from '@/plugins/i18n';
 

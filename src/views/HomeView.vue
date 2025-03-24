@@ -2,16 +2,16 @@
     <!-- Hero -->
     <section class="hero is-medium has-bg-img">
         <div class="hero-body">
-            <p class="title" v-text="t('homeTitle')"></p>
-            <p class="subtitle" v-text="t('homeSubtitle')"></p>
+            <h2 class="title is-2 has-text-light" v-text="t('homeTitle')"></h2>
+            <h4 class="subtitle is-4 has-text-light" v-text="t('homeSubtitle')"></h4>
         </div>
     </section>
     <!-- Quotes -->
     <section class="section">
-        <div class="container is-max-tablet has-text-left">
+        <div class="container is-max-tablet has-text-left is-size-5 quote-left">
             <p class="has-text-orange is-italic" v-html="t('quoteOne')"></p>
         </div>
-        <div class="container is-max-tablet has-text-right mt-5">
+        <div class="container is-max-tablet has-text-right is-size-5 mt-5 quote-right">
             <p class="has-text-orange is-italic" v-html="t('quoteTwo')"></p>
         </div>
     </section>
@@ -23,7 +23,7 @@
             <div class="content has-text-weight-bold has-text-centered" v-text="t('welcomeTextTwo')"></div>
             <div class="content" v-text="t('welcomeTextThree')"></div>
             <div class="has-text-centered">
-                <RouterLink class="button is-warning" v-text="t('welcomeButtonText')" to="/about"></RouterLink>
+                <RouterLink class="button is-warning is-outlined" v-text="t('welcomeButtonText')" to="/therapy"></RouterLink>
             </div>
         </div>
     </section>
@@ -59,7 +59,7 @@
                 </ul>
             </div>
             <div class="has-text-centered">
-                <RouterLink class="button is-warning" v-text="t('contactButtonText')" to="/sessions"></RouterLink>
+                <RouterLink class="button is-warning is-outlined" v-text="t('contactButtonText')" to="/sessions"></RouterLink>
             </div>
         </div>
     </section>
@@ -79,7 +79,33 @@
 
 <style scoped>
     .has-bg-img { 
-        background: url('@/assets/iris_3.webp') center center; 
+        background: url('@/assets/images/iris_photo_1.webp') center center; 
         background-size:cover; 
     }
+    
+    /* Background image for the upper quote (left side) */
+    .quote-left::before {
+        content: "";
+        position: absolute;
+        top: -20px;
+        left: -50px;
+        width: 100px;
+        height: 100px;
+        background: url('@/assets/images/quote_image_1.webp') no-repeat center/contain;
+        /* opacity: 0.5; */
+        z-index: -1;
+    }
+
+    /* Background image for the lower quote (right side) */
+    .quote-right::before {
+        content: "";
+        position: absolute;
+        top: -30px;
+        right: -50px;
+        width: 100px; /* Adjust as needed */
+        height: 100px; /* Adjust as needed */
+        background: url('@/assets/images/quote_image_2.webp') no-repeat center/contain;
+        z-index: -1;
+    }
+
 </style>

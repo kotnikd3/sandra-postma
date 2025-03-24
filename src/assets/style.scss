@@ -1,17 +1,16 @@
+@use '@/assets/variables.scss' as *;
+
 ///////////////////////////////////////
 // Bulma
 ///////////////////////////////////////
 
-
 // Load everything
 // @use 'bulma/css/bulma.css';
 
-// Set your brand colors
-$color-orange: #ff7128;
-
 // Override global Sass variables from the /utilities folder
 @use "bulma/sass/utilities" with(
-    $link: $color-orange,
+    $link: $color-orange-1,
+    $warning: $color-orange-1,
 );
 
 // Load Bulma's base styles and themes (including the minireset)
@@ -21,7 +20,7 @@ $color-orange: #ff7128;
 // Elements
 @use "bulma/sass/elements/title";
 @use "bulma/sass/elements/button" with(
-    $button-ghost-background: $color-orange,
+    $button-ghost-background: $color-orange-3,
     $button-ghost-color: white,
     $button-ghost-hover-color: white,
 );
@@ -35,10 +34,6 @@ $color-orange: #ff7128;
 @use "bulma/sass/components/navbar" with (
     $navbar-item-img-max-height: 50px,
 );
-// @use "bulma/sass/components/tabs" with(
-//     $tabs-link-active-color: $color-orange,
-//     $tabs-link-hover-color: $color-orange,
-// );
 
 // Helpers
 @use "bulma/sass/helpers/color";
@@ -60,9 +55,7 @@ $color-orange: #ff7128;
 // Google fonts
 ///////////////////////////////////////
 @font-face {
-    // font-family: 'Varela Round';
     font-family: 'Cormorant Garamond';
-    // src: url('./fonts/VarelaRound-Regular.ttf') format('woff2');
     src: url('@/fonts/CormorantGaramond-Regular.ttf') format('woff2');
     font-weight: normal;
     font-style: normal;
@@ -76,50 +69,14 @@ html {
     scroll-behavior: smooth;
 }
 
-footer figure img#img_sblp {
-    width: 300px;
-}
-
-footer figure img#img_rbcz {
-    width: 200px;
-}
-
-.line {
-    border-top: 1px solid #dee2e6;
-}
-
-.img-main {
-    width: 80%;
-    border-radius: 2%;
-}
-
 .has-text-orange {
-    color: $color-orange;
-}
-
-// .buttons {
-//     padding-right: 5%;
-// }
-
-@media(max-width: 767px) {
-    .reverse-columns {
-        flex-direction: column-reverse;
-        display: flex;
-    }
+    color: $color-orange-1;
 }
 
 body {
-    // font-family: 'Varela Round', sans-serif;
     font-family: 'Cormorant Garamond', sans-serif;
 }
 
-#logo_vit {
-    width: 50%;
-}
-
-
 .section:nth-child(odd) {
-    background-color: #fff9ed; /* Light orange */
+    background-color: $color-orange-2;
 }
-
-
