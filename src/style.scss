@@ -7,12 +7,11 @@
 // @use 'bulma/css/bulma.css';
 
 // Set your brand colors
-$color-light-green: rgb(247, 252, 250);
-$color-green: rgb(51, 183, 124);
+$color-orange: #ff7128;
 
 // Override global Sass variables from the /utilities folder
 @use "bulma/sass/utilities" with(
-    $link: $color-green,
+    $link: $color-orange,
 );
 
 // Load Bulma's base styles and themes (including the minireset)
@@ -22,7 +21,7 @@ $color-green: rgb(51, 183, 124);
 // Elements
 @use "bulma/sass/elements/title";
 @use "bulma/sass/elements/button" with(
-    $button-ghost-background: $color-green,
+    $button-ghost-background: $color-orange,
     $button-ghost-color: white,
     $button-ghost-hover-color: white,
 );
@@ -33,10 +32,13 @@ $color-green: rgb(51, 183, 124);
 @use "bulma/sass/grid/columns";
 
 // Components
-@use "bulma/sass/components/tabs" with(
-    $tabs-link-active-color: $color-green,
-    $tabs-link-hover-color: $color-green,
+@use "bulma/sass/components/navbar" with (
+    $navbar-item-img-max-height: 50px,
 );
+// @use "bulma/sass/components/tabs" with(
+//     $tabs-link-active-color: $color-orange,
+//     $tabs-link-hover-color: $color-orange,
+// );
 
 // Helpers
 @use "bulma/sass/helpers/color";
@@ -47,18 +49,21 @@ $color-green: rgb(51, 183, 124);
 // Layout
 @use "bulma/sass/layout/section";
 @use "bulma/sass/layout/footer" with (
-    $footer-background-color: $color-light-green,
+    // $footer-background-color: white,
     $footer-padding: 32px,
 );
 @use "bulma/sass/layout/container";
+@use "bulma/sass/layout/hero";
 
 
 ///////////////////////////////////////
 // Google fonts
 ///////////////////////////////////////
 @font-face {
-    font-family: 'Varela Round';
-    src: url('./fonts/VarelaRound-Regular.ttf') format('woff2');
+    // font-family: 'Varela Round';
+    font-family: 'Cormorant Garamond';
+    // src: url('./fonts/VarelaRound-Regular.ttf') format('woff2');
+    src: url('@/fonts/CormorantGaramond-Regular.ttf') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -88,13 +93,13 @@ footer figure img#img_rbcz {
     border-radius: 2%;
 }
 
-.has-text-green {
-    color: $color-green;
+.has-text-orange {
+    color: $color-orange;
 }
 
-.buttons {
-    padding-right: 5%;
-}
+// .buttons {
+//     padding-right: 5%;
+// }
 
 @media(max-width: 767px) {
     .reverse-columns {
@@ -104,10 +109,17 @@ footer figure img#img_rbcz {
 }
 
 body {
-    font-family: 'Varela Round', sans-serif;
-    background-color: $color-light-green;
+    // font-family: 'Varela Round', sans-serif;
+    font-family: 'Cormorant Garamond', sans-serif;
 }
 
 #logo_vit {
     width: 50%;
 }
+
+
+.section:nth-child(odd) {
+    background-color: #fff9ed; /* Light orange */
+}
+
+
