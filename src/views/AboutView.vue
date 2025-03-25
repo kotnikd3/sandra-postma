@@ -12,11 +12,11 @@
                 <!-- Column -->
                 <div class="column">
                     <h4 class="title is-4" v-text="t('about')"></h4>
-                    <div class="content" v-text="t('aboutTextOne')"></div>
-                    <div class="content" v-text="t('aboutTextTwo')"></div>
-                    <div class="content" v-html="t('aboutTextThree')"></div>
-                    <div class="content" v-text="t('aboutTextFour')"></div>
-                    <div class="content" v-text="t('aboutTextFive')"></div>
+                    <div class="block" v-text="t('aboutTextOne')"></div>
+                    <div class="block has-bg-img-right" v-text="t('aboutTextTwo')"></div>
+                    <div class="block" v-html="t('aboutTextThree')"></div>
+                    <div class="block" v-text="t('aboutTextFour')"></div>
+                    <div class="block" v-text="t('aboutTextFive')"></div>
                 </div>
             </div>
         </div>

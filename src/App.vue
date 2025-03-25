@@ -1,6 +1,6 @@
 <template>
     <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand ml-6">
+        <div class="navbar-brand">
             <RouterLink class="navbar-item" to="/">
                 <img src="@/assets/images/logo.webp" alt="Sandra_Postma_logo">
             </RouterLink>
@@ -21,9 +21,9 @@
         </div>
 
         <div id="navMenu" :class="['navbar-menu', { 'is-active' : isMenuActive }]">
-            <div class="navbar-end mr-6">
+            <div class="navbar-end">
                 <RouterLink class="navbar-item" to="/">Home</RouterLink>
-                <RouterLink class="navbar-item" to="/therapy">Body-oriented therapy</RouterLink>
+                <RouterLink class="navbar-item" to="/therapy" v-text="t('homeSubtitle')"></RouterLink>
                 <RouterLink class="navbar-item" to="/sessions" v-text="t('sessions')"></RouterLink>
                 <RouterLink class="navbar-item" to="/about" v-text="t('about')"></RouterLink>
                 <div class="navbar-item">

@@ -26,6 +26,7 @@
 );
 @use "bulma/sass/elements/icon";
 @use "bulma/sass/elements/content";
+@use "bulma/sass/elements/block";
 
 // Grid
 @use "bulma/sass/grid/columns";
@@ -79,4 +80,12 @@ body {
 
 .section:nth-child(odd) {
     background-color: $color-orange-2;
+}
+
+.has-bg-img-left {
+    background: url('@/assets/images/quote_image_1.webp') no-repeat left center/contain;
+}
+
+.has-bg-img-right {
+    background: url('@/assets/images/quote_image_2.webp') no-repeat right center/contain;
 }

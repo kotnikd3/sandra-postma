@@ -7,15 +7,15 @@
     </section>
     <!-- Therapy -->
     <section class="section">
-        <div class="container">
+        <div class="container has-bg-img-right">
             <h4 class="title is-4" v-text="t('therapyTitleOne')"></h4>
-            <div class="content" v-text="t('therapyTextOne')"></div>
-            <div class="content has-text-centered">
+            <div class="block" v-text="t('therapyTextOne')"></div>
+            <div class="block has-text-centered">
                 <a class="button is-warning is-outlined" v-text="t('informationLinkText')" href="#whySection"></a>
             </div>
-            <div class="content" v-text="t('therapyTextTwo')"></div>
-            <div class="content" v-text="t('therapyTextThree')"></div>
-            <div class="content has-text-centered">
+            <div class="block" v-text="t('therapyTextTwo')"></div>
+            <div class="block" v-text="t('therapyTextThree')"></div>
+            <div class="block has-text-centered">
                 <RouterLink class="button is-warning is-outlined" v-text="t('contactPageButtonText')" to="/about"></RouterLink>
             </div>
         </div>
@@ -23,19 +23,19 @@
     <section class="section" id="whySection">
         <div class="container">
             <h4 class="title is-4" v-text="t('therapyTitleTwo')"></h4>
-            <div class="content" v-text="t('therapyTextFour')"></div>
-            <div class="content has-text-centered">
+            <div class="block" v-text="t('therapyTextFour')"></div>
+            <div class="block has-text-centered">
                 <a class="button is-warning is-outlined" v-text="t('informationLinkText')" href="#howSection"></a>
             </div>
-            <div class="content" v-text="t('therapyTextFive')"></div>
-            <div class="content" v-text="t('therapyTextSix')"></div>
-            <div class="content" v-text="t('therapyTextSeven')"></div>
+            <div class="block" v-text="t('therapyTextFive')"></div>
+            <div class="block" v-text="t('therapyTextSix')"></div>
+            <div class="block" v-text="t('therapyTextSeven')"></div>
         </div>
     </section>
     <section class="section" id="howSection">
-        <div class="container">
+        <div class="container has-bg-img-left">
             <h4 class="title is-4" v-text="t('therapyTitleThree')"></h4>
-            <div class="content" v-text="t('therapyTextEight')"></div>
+            <div class="block" v-text="t('therapyTextEight')"></div>
         </div>
     </section>
 </template>
