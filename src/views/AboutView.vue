@@ -4,7 +4,7 @@
     <!-- About Sandra -->
     <section class="section">
         <div class="container">
-            <div class="columns is-vcentered">
+            <div class="columns is-vcentered reverse-columns">
                 <!-- Column -->
              	<div class="column has-text-centered">
                     <img class="img-main" src="@/assets/images/sandra_photo.webp" alt="Sandra_Postma">
@@ -47,5 +47,12 @@
     .img-main {
         width: 80%;
         border-radius: 2%;
+    }
+
+    @media(max-width: 767px) { /* <== You can change this break point as per your  needs */
+        .reverse-columns {
+            flex-direction: column-reverse;
+            display: flex;
+        }
     }
 </style>

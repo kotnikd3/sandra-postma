@@ -16,7 +16,7 @@
             <div class="block" v-text="t('therapyTextTwo')"></div>
             <div class="block" v-text="t('therapyTextThree')"></div>
             <div class="block has-text-centered">
-                <RouterLink class="button is-warning is-outlined" v-text="t('contactPageButtonText')" to="/about"></RouterLink>
+                <RouterLink class="button is-warning is-outlined is-wrap" v-text="t('contactPageButtonText')" to="/about"></RouterLink>
             </div>
         </div>
     </section>
@@ -65,4 +65,11 @@
         padding: 1.5rem;
         border-radius: 2%;
     }
+
+    .button.is-wrap {
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  text-align: center;
+}
 </style>
