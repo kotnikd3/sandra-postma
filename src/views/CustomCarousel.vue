@@ -1,6 +1,6 @@
 <template>
-    <div class="carousel-wrapper">
-        <carousel :items-to-show="1" :autoplay="3000" wrap-around>
+    <div class="container is-max-desktop">
+        <carousel :items-to-show="1" :autoplay="10000" wrap-around>
             <slide v-for="(text, index) in slides" :key="index">
                 <h5 class="subtitle is-5 has-text-orange is-italic" v-html="text"></h5>
             </slide>
@@ -21,7 +21,22 @@
     const { t } = useI18n();
     
     const slides = [
-        t('aboutExperienceQuoteOne'), 
+        t('aboutExperienceQuoteOne'),
         t('aboutExperienceQuoteTwo'),
     ]
 </script>
+
+<style lang="scss">
+    @use '@/assets/variables.scss' as *;
+
+    .carousel__next, .carousel__prev {
+        font-size: 3rem;
+        width: 60px;
+        height: 60px;
+        color: $color-grey-1;
+    }
+
+    .carousel__pagination-button--active {
+        background-color: $color-orange-1;
+    }
+</style>

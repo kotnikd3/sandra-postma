@@ -33,7 +33,7 @@
         </div>
     </section>
     <section class="section" id="howSection">
-        <div class="container has-bg-img-left">
+        <div class="container has-bg-img-left has-border">
             <h4 class="title is-4" v-text="t('therapyTitleThree')"></h4>
             <div class="block" v-text="t('therapyTextEight')"></div>
         </div>
@@ -52,9 +52,17 @@
     }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+    @use '@/assets/variables.scss' as *;
+
     .has-bg-img { 
         background: url('@/assets/images/iris_photo_2.webp') center center; 
-        background-size:cover; 
+        background-size: cover;
+    }
+
+    .has-border {
+        border: 3px solid $color-orange-2; /* Adjust thickness if needed */
+        padding: 1.5rem;
+        border-radius: 2%;
     }
 </style>

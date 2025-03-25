@@ -80,6 +80,6 @@
 <style scoped>
     .has-bg-img { 
         background: url('@/assets/images/iris_photo_1.webp') center center; 
-        background-size:cover; 
+        background-size: cover;
     }
 </style>

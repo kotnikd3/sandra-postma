@@ -66,7 +66,7 @@
 <style scoped>
     .has-bg-img { 
         background: url('@/assets/images/iris_photo_4.webp') center center; 
-        background-size:cover; 
+        background-size: cover;
     }
     .session-box {
         padding-top: 3rem;  /* Adds spacing between each title-content block */
