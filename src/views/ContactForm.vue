@@ -22,7 +22,7 @@
         <div class="field">
             <label class="label" v-text="t('message')"></label>
             <div class="control">
-                <textarea class="textarea" :placeholder="t('message')" v-model="form.message" required></textarea>
+                <textarea class="textarea" :placeholder="t('message')" rows="10" v-model="form.message" required></textarea>
             </div>
         </div>
         <!-- Button -->
