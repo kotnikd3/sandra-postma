@@ -9,24 +9,24 @@
             <div class="block" v-text="t('contactTextTwo')"></div>
             <div class="columns is-centered has-text-centered mt-5">
                 <div class="column is-half">
-                    <h4 class="subtitle is-4">
+                    <p class="subtitle is-4">
                         <span class="icon-text">
                             <span class="icon">
                                 <font-awesome-icon icon="fa-solid fa-phone" />
                             </span>
                             <span>+31 6 11 80 33 43</span>
                         </span>
-                    </h4>
+                    </p>
                 </div>
                 <div class="column is-half">
-                    <h4 class="subtitle is-4">
+                    <p class="subtitle is-4">
                         <span class="icon-text">
                             <span class="icon">
                                 <font-awesome-icon icon="fa-regular fa-envelope" />
                             </span>
                             <span>praktijk@sandra-postma.nl</span>
                         </span>
-                    </h4>
+                    </p>
                 </div>
             </div>
         </div>

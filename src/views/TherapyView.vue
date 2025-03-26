@@ -2,13 +2,13 @@
     <!-- Hero -->
     <section class="hero is-medium has-bg-img">
         <div class="hero-body container">
-            <h4 class="subtitle is-4 has-text-light" v-html="t('therapyTitle')"></h4>
+            <h2 class="subtitle is-4 has-text-light" v-html="t('therapyTitle')"></h2>
         </div>
     </section>
     <!-- Therapy -->
     <section class="section">
         <div class="container is-max-desktop">
-            <h4 class="title is-4" v-text="t('therapyTitleOne')"></h4>
+            <h2 class="title is-4" v-text="t('therapyTitleOne')"></h2>
             <div class="block has-bg-img-right" v-text="t('therapyTextOne')"></div>
 
             <!-- Button to show/hide content -->
@@ -31,7 +31,7 @@
     </section>
     <section class="section">
         <div class="container is-max-desktop">
-            <h4 class="title is-4" v-text="t('therapyTitleTwo')"></h4>
+            <h2 class="title is-4" v-text="t('therapyTitleTwo')"></h2>
             <div class="block" v-text="t('therapyTextFour')"></div>
 
             <!-- Button to show/hide content -->
@@ -51,7 +51,7 @@
     </section>
     <section class="section has-bg-img-left">
         <div class="container is-max-desktop has-border">
-            <h4 class="title is-4" v-text="t('therapyTitleThree')"></h4>
+            <h2 class="title is-4" v-text="t('therapyTitleThree')"></h2>
             <div class="block" v-text="t('therapyTextEight')"></div>
         </div>
     </section>

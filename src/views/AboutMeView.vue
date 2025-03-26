@@ -11,8 +11,8 @@
                 </div>
                 <!-- Column -->
                 <div class="column">
-                    <h4 class="title is-4" v-text="t('about')"></h4>
-                    <h5 class="subtitle is-5" v-text="t('aboutQuote')"></h5>
+                    <h2 class="title is-4" v-text="t('about')"></h2>
+                    <h3 class="subtitle is-5" v-text="t('aboutQuote')"></h3>
                     <div class="block" v-text="t('aboutTextOne')"></div>
                     <div class="block has-bg-img-right" v-text="t('aboutTextTwo')"></div>
                     <div class="block" v-html="t('aboutTextThree')"></div>

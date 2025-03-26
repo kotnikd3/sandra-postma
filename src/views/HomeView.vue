@@ -2,8 +2,8 @@
     <!-- Hero -->
     <section class="hero is-medium has-bg-img">
         <div class="hero-body container">
-            <h2 class="title is-2 has-text-light" v-text="t('homeTitle')"></h2>
-            <h4 class="subtitle is-4 has-text-light" v-text="t('homeSubtitle')"></h4>
+            <h1 class="title is-2 has-text-light" v-text="t('homeSubtitle')"></h1>
+            <h2 class="subtitle is-4 has-text-light" v-text="t('homeTitle')"></h2>
         </div>
     </section>
     <!-- Quotes -->
@@ -18,7 +18,7 @@
     <!-- Welcome -->
     <section class="section">
         <div class="container is-max-desktop">
-            <h4 class="title is-4" v-text="t('welcomeTitle')"></h4>
+            <h2 class="title is-4" v-text="t('welcomeTitle')"></h2>
             <div class="block" v-text="t('welcomeTextOne')"></div>
             <div class="block has-text-weight-bold has-text-centered" v-text="t('welcomeTextTwo')"></div>
             <div class="block" v-text="t('welcomeTextThree')"></div>
@@ -30,7 +30,7 @@
     <!-- When can it help -->
     <section class="section">
         <div class="container is-max-desktop">
-            <h4 class="title is-4" v-text="t('whenCanItHelpTitle')"></h4>
+            <h2 class="title is-4" v-text="t('whenCanItHelpTitle')"></h2>
             <p v-text="t('whenCanItHelpText')"></p>
             <div class="content">
                 <ul>
