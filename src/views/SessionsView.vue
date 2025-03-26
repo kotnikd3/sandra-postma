@@ -9,7 +9,7 @@
         <div class="container is-max-desktop">
             <div class="block has-bg-img-right">
                 <h4 class="title is-4" v-text="t('sessionsTitleOne')"></h4>
-                <p v-text="t('sessionsTextOne')"></p>
+                <p v-html="t('sessionsTextOne')"></p>
             </div>
             <div class="block">
                 <h4 class="title is-4" v-text="t('sessionsTitleTwo')"></h4>

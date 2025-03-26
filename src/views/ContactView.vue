@@ -5,11 +5,9 @@
     </section>
     <section class="section">
         <div class="container is-max-desktop has-bg-img-right">
-            <div class="block">
-                Text TODO<br>
-                Text TODO<br>
-            </div>
-            <div class="columns is-centered has-text-centered">
+            <div class="block" v-text="t('contactTextOne')"></div>
+            <div class="block" v-text="t('contactTextTwo')"></div>
+            <div class="columns is-centered has-text-centered mt-5">
                 <div class="column is-half">
                     <h4 class="subtitle is-4">
                         <span class="icon-text">

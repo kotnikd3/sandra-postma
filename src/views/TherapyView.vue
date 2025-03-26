@@ -16,7 +16,7 @@
             <div class="block" v-text="t('therapyTextTwo')"></div>
             <div class="block" v-text="t('therapyTextThree')"></div>
             <div class="block has-text-centered">
-                <RouterLink class="button is-warning is-outlined is-wrap" v-text="t('contactPageButtonText')" to="/about"></RouterLink>
+                <RouterLink class="button is-warning is-outlined is-wrap" v-text="t('contactPageButtonText')" to="/contact"></RouterLink>
             </div>
         </div>
     </section>

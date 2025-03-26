@@ -59,7 +59,7 @@
                 </ul>
             </div>
             <div class="has-text-centered">
-                <RouterLink class="button is-warning is-outlined" v-text="t('contactButtonText')" to="/sessions"></RouterLink>
+                <RouterLink class="button is-warning is-outlined" v-text="t('contactButtonText')" to="/contact"></RouterLink>
             </div>
         </div>
     </section>
