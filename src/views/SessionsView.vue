@@ -1,7 +1,7 @@
 <template>
     <!-- Hero -->
     <section class="hero is-medium has-bg-img">
-        <div class="hero-body">
+        <div class="hero-body container">
             <h4 class="subtitle is-4 has-text-light" v-text="t('sessionsTitle')"></h4>
         </div>
     </section>
