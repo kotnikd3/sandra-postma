@@ -5,14 +5,14 @@
         <div class="field">
             <label class="label" v-text="t('name')"></label>
             <div class="control">
-                <input class="input" type="text" :placeholder="t('name')" v-model="form.name">
+                <input class="input" type="text" :placeholder="t('name')" v-model="form.name" required>
             </div>
         </div>
         <!-- Email -->
         <div class="field">
             <label class="label">Email</label>
             <div class="control has-icons-left">
-                <input class="input" type="email" placeholder="Email" v-model="form.email">
+                <input class="input" type="email" placeholder="Email" v-model="form.email" required>
                 <span class="icon is-small is-left">
                     <font-awesome-icon icon="fa-regular fa-envelope" />
                 </span>
@@ -22,7 +22,7 @@
         <div class="field">
             <label class="label" v-text="t('message')"></label>
             <div class="control">
-                <textarea class="textarea" :placeholder="t('message')" v-model="form.message"></textarea>
+                <textarea class="textarea" :placeholder="t('message')" v-model="form.message" required></textarea>
             </div>
         </div>
         <!-- Button -->
