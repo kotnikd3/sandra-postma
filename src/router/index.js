@@ -4,6 +4,7 @@ import HomeView from '@/views/HomeView.vue'
 import TherapyView from '@/views/TherapyView.vue'
 import SessionsView from '@/views/SessionsView.vue'
 import AboutView from '@/views/AboutView.vue'
+import ContactView from '@/views/ContactView.vue'
 
 
 const router = createRouter({
@@ -29,6 +30,11 @@ const router = createRouter({
         path: '/about',
         name: 'about',
         component: AboutView
+    },
+    {
+        path: '/contact',
+        name: 'contact',
+        component: ContactView
     },
   ],
   scrollBehavior(to, from, savedPosition) {

@@ -6,7 +6,7 @@
         </div>
     </section>
     <div class="section has-text-centered">
-        <div class="container">
+        <div class="container is-max-desktop">
             <div class="block has-bg-img-right">
                 <h4 class="title is-4" v-text="t('sessionsTitleOne')"></h4>
                 <p v-text="t('sessionsTextOne')"></p>

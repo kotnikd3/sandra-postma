@@ -26,6 +26,7 @@
                 <RouterLink class="navbar-item" to="/therapy" v-text="t('homeSubtitle')"></RouterLink>
                 <RouterLink class="navbar-item" to="/sessions" v-text="t('sessions')"></RouterLink>
                 <RouterLink class="navbar-item" to="/about" v-text="t('about')"></RouterLink>
+                <RouterLink class="navbar-item" to="/contact">Contact</RouterLink>
                 <div class="navbar-item">
                     <div class="buttons has-addons">
                         <button @click="selectedLang = 'nl'" :class="['button is-small', { 'is-ghost': selectedLang === 'nl' }]">NL</button>

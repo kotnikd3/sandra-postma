@@ -7,7 +7,7 @@
     </section>
     <!-- Therapy -->
     <section class="section">
-        <div class="container has-bg-img-right">
+        <div class="container is-max-desktop has-bg-img-right">
             <h4 class="title is-4" v-text="t('therapyTitleOne')"></h4>
             <div class="block" v-text="t('therapyTextOne')"></div>
             <div class="block has-text-centered">
@@ -21,7 +21,7 @@
         </div>
     </section>
     <section class="section" id="whySection">
-        <div class="container">
+        <div class="container is-max-desktop">
             <h4 class="title is-4" v-text="t('therapyTitleTwo')"></h4>
             <div class="block" v-text="t('therapyTextFour')"></div>
             <div class="block has-text-centered">
@@ -32,8 +32,8 @@
             <div class="block" v-text="t('therapyTextSeven')"></div>
         </div>
     </section>
-    <section class="section" id="howSection">
-        <div class="container has-bg-img-left has-border">
+    <section class="section has-bg-img-left" id="howSection">
+        <div class="container is-max-desktop has-border">
             <h4 class="title is-4" v-text="t('therapyTitleThree')"></h4>
             <div class="block" v-text="t('therapyTextEight')"></div>
         </div>
@@ -67,9 +67,9 @@
     }
 
     .button.is-wrap {
-  white-space: normal;
-  word-break: break-word;
-  overflow-wrap: break-word;
-  text-align: center;
-}
+        white-space: normal;
+        word-break: break-word;
+        overflow-wrap: break-word;
+        text-align: center;
+    }
 </style>

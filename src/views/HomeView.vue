@@ -8,16 +8,16 @@
     </section>
     <!-- Quotes -->
     <section class="section">
-        <div class="container is-max-tablet has-text-left has-bg-img-right">
+        <div class="container is-max-desktop has-text-left has-bg-img-right">
             <p class="has-text-orange is-italic is-size-4" v-html="t('quoteOne')"></p>
         </div>
-        <div class="container is-max-tablet has-text-right mt-5 has-bg-img-left">
+        <div class="container is-max-desktop has-text-right mt-5 has-bg-img-left">
             <p class="has-text-orange is-italic is-size-5" v-html="t('quoteTwo')"></p>
         </div>
     </section>
     <!-- Welcome -->
     <section class="section">
-        <div class="container">
+        <div class="container is-max-desktop">
             <h4 class="title is-4" v-text="t('welcomeTitle')"></h4>
             <div class="block" v-text="t('welcomeTextOne')"></div>
             <div class="block has-text-weight-bold has-text-centered" v-text="t('welcomeTextTwo')"></div>
@@ -29,7 +29,7 @@
     </section>
     <!-- When can it help -->
     <section class="section">
-        <div class="container">
+        <div class="container is-max-desktop">
             <h4 class="title is-4" v-text="t('whenCanItHelpTitle')"></h4>
             <p v-text="t('whenCanItHelpText')"></p>
             <div class="content">

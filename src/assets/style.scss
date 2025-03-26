@@ -27,6 +27,8 @@
 @use "bulma/sass/elements/icon";
 @use "bulma/sass/elements/content";
 @use "bulma/sass/elements/block";
+@use "bulma/sass/elements/notification";
+@use "bulma/sass/elements/delete";
 
 // Grid
 @use "bulma/sass/grid/columns";
@@ -35,6 +37,10 @@
 @use "bulma/sass/components/navbar" with (
     $navbar-item-img-max-height: 50px,
 );
+
+// Form
+@use "bulma/sass/form/input-textarea";
+@use "bulma/sass/form/tools";
 
 // Helpers
 @use "bulma/sass/helpers/color";
