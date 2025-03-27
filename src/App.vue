@@ -4,7 +4,7 @@
             <RouterLink class="navbar-item" to="/">
                 <img src="@/assets/images/logo.webp" alt="Sandra_Postma_logo">
             </RouterLink>
-            <p class="navbar-item is-size-4" v-text="t('homeTitle')"></p>
+            <h1 class="navbar-item is-size-4" v-text="t('homeTitle')"></h1>
             <a 
                 role="button" 
                 :class="['navbar-burger', { 'is-active' : isMenuActive }]" 
