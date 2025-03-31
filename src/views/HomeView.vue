@@ -5,7 +5,6 @@
             src="@/assets/images/iris_photo_1.webp" 
             alt="Home_background" 
             class="hero-bg-img"
-            loading="lazy"
         />
         <div class="hero-body container">
             <h1 class="title is-2 has-text-light" v-text="t('homeSubtitle')"></h1>

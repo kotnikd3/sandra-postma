@@ -5,7 +5,6 @@
             src="@/assets/images/iris_photo_4.webp" 
             alt="Session_background" 
             class="hero-bg-img"
-            loading="lazy"
         />
         <div class="hero-body container">
             <h2 class="subtitle is-4 has-text-light" v-text="t('sessionsTitle')"></h2>

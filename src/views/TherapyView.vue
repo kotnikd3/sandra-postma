@@ -5,7 +5,6 @@
             src="@/assets/images/iris_photo_2.webp" 
             alt="Therapy_background" 
             class="hero-bg-img"
-            loading="lazy"
         />
         <div class="hero-body container">
             <h2 class="subtitle is-4 has-text-light" v-html="t('therapyTitle')"></h2>

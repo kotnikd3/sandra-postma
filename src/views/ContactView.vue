@@ -5,7 +5,6 @@
             src="@/assets/images/iris_photo_7.webp" 
             alt="Session_background" 
             class="hero-bg-img"
-            loading="lazy"
         />
         <div class="hero-body"></div>
     </section>
