@@ -113,16 +113,15 @@
 </template>
 
 <script>
-import { RouterLink, RouterView, useRoute } from 'vue-router'
+import { RouterLink, RouterView } from 'vue-router'
 import { useI18n } from 'vue-i18n';
 
 export default {
   	name: 'App',
     setup() {
         const { t, locale } = useI18n()
-        const route = useRoute();
 
-        return { t, locale, route }
+        return { t, locale }
     },
     data() {
             return {
