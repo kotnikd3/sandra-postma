@@ -1,6 +1,12 @@
 <template>
     <!-- Hero -->
     <section class="hero is-medium has-bg-img">
+        <img 
+            src="@/assets/images/iris_photo_4.webp" 
+            alt="Session_background" 
+            class="hero-bg-img"
+            loading="lazy"
+        />
         <div class="hero-body container">
             <h2 class="subtitle is-4 has-text-light" v-text="t('sessionsTitle')"></h2>
         </div>
@@ -62,14 +68,3 @@
         },
     }
 </script>
-
-<style scoped>
-    .has-bg-img { 
-        background: url('@/assets/images/iris_photo_4.webp') center center; 
-        background-size: cover;
-    }
-    .session-box {
-        padding-top: 3rem;  /* Adds spacing between each title-content block */
-        border-top: 1px solid #ddd; /* Optional: Adds a separator */
-    }
-</style>

@@ -1,6 +1,12 @@
 <template>
     <!-- Hero -->
     <section class="hero is-medium has-bg-img">
+        <img 
+            src="@/assets/images/iris_photo_7.webp" 
+            alt="Session_background" 
+            class="hero-bg-img"
+            loading="lazy"
+        />
         <div class="hero-body"></div>
     </section>
     <section class="section">
@@ -54,10 +60,3 @@
         },
     }
 </script>
-
-<style scoped>
-    .has-bg-img { 
-        background: url('@/assets/images/iris_photo_7.webp') center center; 
-        background-size: cover;
-    }
-</style>

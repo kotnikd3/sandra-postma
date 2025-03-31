@@ -1,6 +1,12 @@
 <template>
     <!-- Hero -->
     <section class="hero is-medium has-bg-img">
+        <img 
+            src="@/assets/images/iris_photo_2.webp" 
+            alt="Therapy_background" 
+            class="hero-bg-img"
+            loading="lazy"
+        />
         <div class="hero-body container">
             <h2 class="subtitle is-4 has-text-light" v-html="t('therapyTitle')"></h2>
         </div>
@@ -85,11 +91,6 @@
 
 <style scoped lang="scss">
     @use '@/assets/variables.scss' as *;
-
-    .has-bg-img { 
-        background: url('@/assets/images/iris_photo_2.webp') center center; 
-        background-size: cover;
-    }
 
     .has-border {
         border: 3px solid $color-orange-2; /* Adjust thickness if needed */

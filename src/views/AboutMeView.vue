@@ -7,7 +7,7 @@
             <div class="columns is-vcentered reverse-columns">
                 <!-- Column -->
              	<div class="column has-text-centered">
-                    <img class="img-main" src="@/assets/images/sandra_photo.webp" alt="Sandra_Postma">
+                    <img class="img-main" src="@/assets/images/sandra_photo.webp" alt="Sandra_Postma" loading="lazy">
                 </div>
                 <!-- Column -->
                 <div class="column">

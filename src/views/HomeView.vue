@@ -1,6 +1,12 @@
 <template>
     <!-- Hero -->
-    <section class="hero is-medium has-bg-img">
+    <section class="hero is-medium">
+        <img 
+            src="@/assets/images/iris_photo_1.webp" 
+            alt="Home_background" 
+            class="hero-bg-img"
+            loading="lazy"
+        />
         <div class="hero-body container">
             <h1 class="title is-2 has-text-light" v-text="t('homeSubtitle')"></h1>
             <h2 class="subtitle is-4 has-text-light" v-text="t('homeTitle')"></h2>
@@ -76,10 +82,3 @@
         },
     }
 </script>
-
-<style scoped>
-    .has-bg-img { 
-        background: url('@/assets/images/iris_photo_1.webp') center center; 
-        background-size: cover;
-    }
-</style>
