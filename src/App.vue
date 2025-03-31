@@ -22,11 +22,11 @@
 
         <div id="navMenu" :class="['navbar-menu', { 'is-active' : isMenuActive }]">
             <div class="navbar-end">
-                <RouterLink class="navbar-item" to="/">Home</RouterLink>
-                <RouterLink class="navbar-item" to="/therapy" v-text="t('homeSubtitle')"></RouterLink>
-                <RouterLink class="navbar-item" to="/sessions" v-text="t('sessions')"></RouterLink>
-                <RouterLink class="navbar-item" to="/about" v-text="t('about')"></RouterLink>
-                <RouterLink class="navbar-item" to="/contact">Contact</RouterLink>
+                <RouterLink class="navbar-item" to="/" @click="isMenuActive = false;">Home</RouterLink>
+                <RouterLink class="navbar-item" to="/therapy" v-text="t('homeSubtitle')" @click="isMenuActive = false;"></RouterLink>
+                <RouterLink class="navbar-item" to="/sessions" v-text="t('sessions')" @click="isMenuActive = false;"></RouterLink>
+                <RouterLink class="navbar-item" to="/about" v-text="t('about')" @click="isMenuActive = false;"></RouterLink>
+                <RouterLink class="navbar-item" to="/contact" @click="isMenuActive = false;">Contact</RouterLink>
                 <div class="navbar-item">
                     <div class="buttons has-addons">
                         <button @click="selectedLang = 'nl'" :class="['button is-small', { 'is-ghost': selectedLang === 'nl' }]">NL</button>
