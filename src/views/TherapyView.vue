@@ -28,7 +28,7 @@
                     <div class="block" v-text="t('therapyTextThree')"></div>
                     <!-- Contact button -->
                     <div class="block has-text-centered">
-                        <RouterLink class="button is-warning is-outlined is-wrap" v-text="t('contactPageButtonText')" to="/contact"></RouterLink>
+                        <RouterLink class="button is-warning is-outlined is-wrap" v-text="t('contactPageButtonText')" :to="{ name: 'contact' }"></RouterLink>
                     </div>
                 </div>
             </transition>

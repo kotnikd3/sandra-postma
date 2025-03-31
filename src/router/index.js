@@ -17,17 +17,17 @@ const router = createRouter({
         component: HomeView
     },
     {
-        path: '/therapy',
+        path: '/therapie',
         name: 'therapy',
         component: TherapyView
     },
     {
-        path: '/sessions',
+        path: '/sessies',
         name: 'sessions',
         component: SessionsView
     },
     {
-        path: '/about',
+        path: '/over',
         name: 'about',
         component: AboutMeView
     },

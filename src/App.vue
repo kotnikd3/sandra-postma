@@ -7,7 +7,7 @@
             <h1 class="navbar-item is-size-4" v-text="t('homeTitle')"></h1>
             <a 
                 role="button" 
-                :class="['navbar-burger', { 'is-active' : isMenuActive }]" 
+                :class="['navbar-burger', { 'is-active' : isMenuActive }]"
                 aria-label="menu" 
                 aria-expanded="false" 
                 data-target="navMenu"
@@ -22,11 +22,11 @@
 
         <div id="navMenu" :class="['navbar-menu', { 'is-active' : isMenuActive }]">
             <div class="navbar-end">
-                <RouterLink class="navbar-item" to="/" @click="isMenuActive = false;">Home</RouterLink>
-                <RouterLink class="navbar-item" to="/therapy" v-text="t('homeSubtitle')" @click="isMenuActive = false;"></RouterLink>
-                <RouterLink class="navbar-item" to="/sessions" v-text="t('sessions')" @click="isMenuActive = false;"></RouterLink>
-                <RouterLink class="navbar-item" to="/about" v-text="t('about')" @click="isMenuActive = false;"></RouterLink>
-                <RouterLink class="navbar-item" to="/contact" @click="isMenuActive = false;">Contact</RouterLink>
+                <RouterLink class="navbar-item" :to="{ name: 'home' }" @click="isMenuActive = false;">Home</RouterLink>
+                <RouterLink class="navbar-item" :to="{ name: 'therapy' }" v-text="t('homeSubtitle')" @click="isMenuActive = false;"></RouterLink>
+                <RouterLink class="navbar-item" :to="{ name: 'sessions' }" v-text="t('sessions')" @click="isMenuActive = false;"></RouterLink>
+                <RouterLink class="navbar-item" :to="{ name: 'about' }" v-text="t('about')" @click="isMenuActive = false;"></RouterLink>
+                <RouterLink class="navbar-item" :to="{ name: 'contact' }" @click="isMenuActive = false;">Contact</RouterLink>
                 <div class="navbar-item">
                     <div class="buttons has-addons">
                         <button @click="selectedLang = 'nl'" :class="['button is-small', { 'is-ghost': selectedLang === 'nl' }]">NL</button>
