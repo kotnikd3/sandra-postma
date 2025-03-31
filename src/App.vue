@@ -11,7 +11,7 @@
                 aria-label="menu" 
                 aria-expanded="false" 
                 data-target="navMenu"
-                @click="toggleMenu"
+                @click="isMenuActive = !isMenuActive"
             >
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
@@ -29,8 +29,8 @@
                 <RouterLink class="navbar-item" :to="{ name: 'contact' }" @click="isMenuActive = false;">Contact</RouterLink>
                 <div class="navbar-item">
                     <div class="buttons has-addons">
-                        <button @click="selectedLang = 'nl'" :class="['button is-small', { 'is-ghost': selectedLang === 'nl' }]">NL</button>
-                        <button @click="selectedLang = 'en'" :class="['button is-small', { 'is-ghost': selectedLang === 'en' }]">EN</button>
+                        <button @click="locale = 'nl'" :class="['button is-small', { 'is-ghost': locale === 'nl' }]">NL</button>
+                        <button @click="locale = 'en'" :class="['button is-small', { 'is-ghost': locale === 'en' }]">EN</button>
                     </div>
                 </div>
             </div>
@@ -129,22 +129,6 @@ export default {
                 isMenuActive: false,
             }
         },
-    methods: {
-        toggleMenu() {
-            this.isMenuActive = !this.isMenuActive;
-        }
-    },
-    // Test
-    computed: {
-        selectedLang: {
-            get() {
-                return this.locale;
-            },
-            set(lang) {
-                this.locale = lang;
-            }
-        }
-    }
 }
 </script>
 
