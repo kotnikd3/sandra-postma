@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-            <RouterLink class="navbar-item" to="/">
+            <RouterLink class="navbar-item" :to="{ name: 'home' }" @click="isMenuActive = false;">
                 <img src="@/assets/images/logo.webp" alt="Sandra_Postma_logo">
             </RouterLink>
             <h1 class="navbar-item is-size-4" v-text="t('homeTitle')"></h1>
@@ -88,14 +88,14 @@
                     <div class="columns is-mobile is-multiline">
                         <div class="column is-half-mobile is-full-tablet">
                             <figure>
-                                <a href="https://www.vit-therapeuten.nl/" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.vit-therapeuten.nl/vind-therapeut/therapeut/2240/10242" target="_blank" rel="noopener noreferrer">
                                     <img src="@/assets/images/logo_vit.webp" alt="Sandra_Postma_vit">
                                 </a>
                             </figure>
                         </div>
                         <div class="column is-half-mobile is-full-tablet">
                             <figure>
-                                <a href="https://rbcz.nu/" target="_blank" rel="noopener noreferrer">
+                                <a href="https://rbcz.nu/therapeut/s-postma/" target="_blank" rel="noopener noreferrer">
                                     <img src="@/assets/images/logo_rbcz.webp" alt="Sandra_Postma_rbcz">
                                 </a>
                             </figure>
