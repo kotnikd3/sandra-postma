@@ -15,22 +15,22 @@
             <div class="columns is-centered has-text-centered mt-5">
                 <div class="column is-half">
                     <p class="subtitle is-4">
-                        <span class="icon-text">
+                        <a href="tel:+31611803343" class="icon-text">
                             <span class="icon">
                                 <font-awesome-icon icon="fa-solid fa-phone" />
                             </span>
                             <span>+31 6 11 80 33 43</span>
-                        </span>
+                        </a>
                     </p>
                 </div>
                 <div class="column is-half">
                     <p class="subtitle is-4">
-                        <span class="icon-text">
+                        <a href="mailto:praktijk@sandra-postma.nl" class="icon-text">
                             <span class="icon">
                                 <font-awesome-icon icon="fa-regular fa-envelope" />
                             </span>
                             <span>praktijk@sandra-postma.nl</span>
-                        </span>
+                        </a>
                     </p>
                 </div>
             </div>

@@ -46,29 +46,29 @@
                     <h2><strong>Contact</strong></h2>
                     <ul>
                         <li>
-                            <span class="icon-text">
+                            <a href="tel:+31611803343" class="icon-text">
                                 <span class="icon">
                                     <font-awesome-icon icon="fa-solid fa-phone" />
                                 </span>
                                 <span>+31 6 11 80 33 43</span>
-                            </span>
+                            </a>
                         </li>
                         <li>
-                            <span class="icon-text">
+                            <a href="mailto:praktijk@sandra-postma.nl" class="icon-text">
                                 <span class="icon">
                                     <font-awesome-icon icon="fa-regular fa-envelope" />
                                 </span>
                                 <span>praktijk@sandra-postma.nl</span>
-                            </span>
+                            </a>
                         </li>
                         <li><br></li>
                         <li>
-                            <span class="icon-text">
+                            <a href="https://maps.app.goo.gl/3fghiDh3cu374CdS6" target="_blank" rel="noopener noreferrer" class="icon-text">
                                 <span class="icon">
                                     <font-awesome-icon icon="fa-solid fa-location-dot" />
                                 </span>
                                 <span>Sandra Postma<br>Aggemastate 224<br>Leeuwarden</span>
-                            </span>
+                            </a>
                         </li>
                     </ul>
                 </div>
