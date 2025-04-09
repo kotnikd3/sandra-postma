@@ -44,6 +44,10 @@
                 <h2 class="title is-4" v-text="t('sessionsTitleEight')"></h2>
                 <p v-text="t('sessionsTextEight')"></p>
             </div>
+            <div class="block">
+                <h2 class="title is-4" v-text="t('sessionsTitleEleven')"></h2>
+                <p v-text="t('sessionsTextEleven')"></p>
+            </div>
             <div class="block has-bg-img-right">
                 <h2 class="title is-4" v-text="t('sessionsTitleNine')"></h2>
                 <p v-html="t('sessionsTextNine')"></p>
