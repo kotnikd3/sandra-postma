@@ -41,11 +41,12 @@
     "@vitejs/plugin-vue": "^5.2.3",
     "@vue/eslint-config-prettier": "^10.2.0",
     "eslint": "^9.26.0",
-    "eslint-plugin-vue": "^9.32.0",
+    "eslint-plugin-vue": "^10.1.0",
     "prettier": "^3.5.3",
     "sass": "^1.87.0",
     "sass-loader": "^16.0.5",
     "vite": "^6.3.4",
-    "vite-plugin-vue-devtools": "^7.7.6"
+    "vite-plugin-vue-devtools": "^7.7.6",
+    "vue-eslint-parser": "^10.1.3"
   }
 }
